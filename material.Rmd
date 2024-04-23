@@ -1,0 +1,63 @@
+---
+title: "Manual para uma consultoria" 
+author: "Estats Consultoria"
+date: "`r Sys.Date()`"
+fontsize: 20pt
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: True
+    theme: simplex
+linestretch: 1.5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+<style>
+  body{
+    text-align: justify;
+    font-size: 16px
+    }
+  h4 {font-size:20px}
+  h5 {font-size:18px}
+  strong {fontsize:16px}
+</style>
+
+# 1. Introdução
+
+Escrever o objetivo desse curso/material (preparar pra realizar consultorias), escrever também dos passos que serão tratados e deixar o link de uma consultoria pronta no drive.
+
+# 2. Tratamento de dados
+
+Colocar o processo de tratamento de dados que conversamos nos offices, dando exemplos com imagens e exemplos de problemas.
+
+# 2.1. Excel
+
+# 2.2. R
+
+# 3. Descritiva
+
+Colocar o processo da descritiva que conversamos, com exemplos e problemas.
+
+## 3.1. Gráficos no ggplot2
+
+Colocar as funções prontas criadas, como usa-las, e os outputs dos gráficos.
+
+**3.1.1. Estruturando dados para gráficos**
+
+Colocar alguns exemplos das estruturas dos dados errados e como corrigi-los com base no que foi falado no tratamento de dados.
+
+## 3.2. Tabelas de Frequência
+
+Criar tabelas excel ou R pra colocar no overleaf.
+
+## 3.3. Interpretação
+
+Colocar exemplos de interpretação, como e quanto interpretar, dicas via exemplos para não escrever pouco e nem muito.
+
+# 4. Overleaf
+
+O básico do overleaf, as expressões, inserir imagens e tabelas.
