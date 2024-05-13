@@ -30,6 +30,11 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 
 Escrever o objetivo desse curso/material (preparar pra realizar consultorias), escrever também dos passos que serão tratados e deixar o link de uma consultoria pronta no drive.
 
+Este curso foi pensado com o objetivo de ensinar o processo de desenvolvimento de uma consultoria, capacitando os membros da Estats a faze-la e elaborar relatórios com eficiência e conhecimento.
+O material contém instruções para o tratamento de dados, para a análise descritiva e para a escrita de relatórios no Overleaf, bem como, materiais pré-prontos, sites e links úteis.
+
+<br><br>
+
 # 2. Tratamento de dados
 
 Colocar o processo de tratamento de dados que conversamos nos offices, dando exemplos com imagens e exemplos de problemas.
