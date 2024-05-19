@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 
 # 1. Introdução
 
-Escrever o objetivo desse curso/material (preparar pra realizar consultorias), escrever também dos passos que serão tratados e deixar o link de uma consultoria pronta no drive.
+<!-- Escrever o objetivo desse curso/material (preparar pra realizar consultorias), escrever também dos passos que serão tratados e deixar o link de uma consultoria pronta no drive. -->
 
 Este curso foi pensado com o objetivo de ensinar o processo de desenvolvimento de uma consultoria, capacitando os membros da Estats a faze-la e elaborar relatórios com eficiência e conhecimento.
 O material contém instruções para o tratamento de dados, para a análise descritiva e para a escrita de relatórios no Overleaf, bem como, materiais pré-prontos, sites e links úteis.
@@ -37,9 +37,73 @@ O material contém instruções para o tratamento de dados, para a análise desc
 
 # 2. Tratamento de dados
 
-Colocar o processo de tratamento de dados que conversamos nos offices, dando exemplos com imagens e exemplos de problemas.
+<!-- Colocar o processo de tratamento de dados que conversamos nos offices, dando exemplos com imagens e exemplos de problemas. -->
 
-# 2.1. Excel
+O primeiro passo de uma consultoria é o tratamento de dados, esperamos um banco organizado e sem muitos dados faltantes, mas normalmente não é isso que encontramos, e por isso precisamos arrumar esse banco.
+
+
+# 2.1. Google sheets
+
+A primeira plataforma que podemos usar para o tratamento é o goggle sheets, o excel do google, é um aplicativo gratuito e simples de ser usado, podendo ser acesso diretamente pelo navegador.
+Aqui iremos ensinar algumas funções da ferramenta que pode ser útil para problemas específicos e que já nos deparamos anteriormente.
+<br><br>
+
+
+A vizualização inicial de um banco de dados no Sheets é a seguinte,
+![](img/tratamento/1.png)
+
+## **Exemplos de Problemas** 
+
+## Padronizando dados
+
+Muitas vezes, como em questionários de respostas aberta, temos dados que significam a mesma coisa com palavras ou escritas diferentes, o que para fazer uma análise é péssimo, por isso é necessário padronizar esses valores, podemos verificar e fazer isso de forma fácil no sheets.
+
+Primeiramente, para visualizar se temos escritas diferentes podemos selecionar a coluna que queremos ver e depois com o botão direito ir na opção estatísicas da coluna.
+
+![](img/tratamento/5.png)
+
+Com isso podemos ver todos os dados únicos na coluna e a frequência deles, a visualização é a seguinte,
+
+```{r, echo=FALSE, out.width="45%", fig.align='default'}
+library(knitr)
+include_graphics(c("img/tratamento/6-1.png", "img/tratamento/6-2.png"))
+```
+
+Podemos ver que a palavra "Não" está escrita de inúmeras formas diferentes, e queremos padronizar isso, é possível usar a expressão "=SE", a fórmula primeiro tem a comparação, um ";", o valor se a comparação for verdadeira, um ";" e o valor se a comparação for falsa.
+
+
+![](img/tratamento/7.png)
+
+Assim, teremos uma coluna corrigida, isso para expressões mais simples, em caso de ser necessário transformações mais complexas pode ser mais facilmente realizado no R.
+<BR>
+
+Além dessa forma é possível utilizar outra opção, podendo até padronizar mais de uma coluna ao mesmo tempo, na opção editar há "Localizar e substituir"
+
+![](img/tratamento/8.png)
+
+Temos a seguinte tela,
+![](img/tratamento/9.png)
+Aqui podemos escrever a expressão que queremos buscar em localizar, a expressão pela qual queremos substitui-la, em pesquisar podemos definir em todas planilhas, na planilha atual ou apenas em um intervalo, como uma coluna, além disso selecionar as opções abaixo se for do nosso interesse.
+
+<br><br>
+
+## Separar em colunas por separador
+
+Há momentos, como em questonário de múltipla escolha, que temos colunas com várias respostas na mesma coluna com um separador definido entre elas e queremos separá-las em colunas diferentes.
+
+Por exemplo, na coluna Elemento do banco abaixo,
+![](img/tratamento/2.png)
+
+
+Selecionando a coluna que queremos e indo na opção Dados na parte superior, temos "Dividir texto em colunas",
+
+![](img/tratamento/3.png)
+![](img/tratamento/4.png)
+A coluna irá ser separada automaticamente dependendo do separador, no entanto, abaixo há a opção de definir o separador caso o que você deseja não tenha sido selecionado automaticamente.
+
+
+<br><br>
+
 
 # 2.2. R
 
