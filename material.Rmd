@@ -1,14 +1,17 @@
 ---
-title: "Manual para uma consultoria" 
+title: "Manual para uma consultoria"
 author: "Estats Consultoria"
 date: "`r Sys.Date()`"
-fontsize: 20pt
-output: 
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
   html_document:
-    toc: true
+    toc: yes
     toc_depth: 2
-    toc_float: True
+    toc_float: yes
     theme: simplex
+fontsize: 20pt
 linestretch: 1.5
 ---
 
@@ -114,7 +117,7 @@ Colocar o processo da descritiva que conversamos, com exemplos e problemas.
 ## 3.1. Gráficos no ggplot2
 
 ### Pacotes
-```{r Pacotes}
+```{r Pacotes, message=FALSE}
 library(ggplot2)
 library(dplyr)
 library(gridExtra)
@@ -124,10 +127,16 @@ pct_format = scales::percent_format(accuracy = .1)
 
 ```
 
+### Dados usados nos exemplos
+```{r}
+head(mtcars)
+str(mtcars)
+```
 
 ### Gráfico de barras univariado
 ```{r barras univariado}
-uni_bar <- function(banco, var, ylab= 'Frequência', xlab = '', color = '#767F8B', order = NULL, flip = F){
+uni_bar <- function(banco, var, ylab= 'Frequência', xlab = '',
+                    color = '#767F8B', order = NULL, flip = F){
   
   banco <- banco[banco[var] != '',][var]
   
@@ -183,10 +192,17 @@ uni_bar <- function(banco, var, ylab= 'Frequência', xlab = '', color = '#767F8B
 
 ```
 
+```{r}
+uni_bar()
+```
+
+
 ### Gráfico de barras bivariado
 
 ```{r Barras bivariado}
-bi_bar <- function(banco, x, y, ylab= 'Frequência', xlab = '', label_fill = '', color = c('#767F8B', '#B3B7B8'), label_size = 0.25, order = NULL, flip = F){
+bi_bar <- function(banco, x, y, ylab= 'Frequência', xlab = '', label_fill = '',
+                   color = c('#767F8B', '#B3B7B8'), label_size = 0.25,
+                   order = NULL, flip = F){
   
   banco <- banco[banco[x] != '' & banco[y] != '',][,c(x,y)]
   prim.maiuscula <- function(x) {
@@ -195,8 +211,10 @@ bi_bar <- function(banco, x, y, ylab= 'Frequência', xlab = '', label_fill = '',
     x
   }
   
-  if(typeof(banco[3,x]) == 'character') {banco[x] <- sapply(banco[x], FUN = prim.maiuscula)}
-  if(typeof(banco[3,y]) == 'character') {banco[y] <- sapply(banco[y], FUN = prim.maiuscula)}
+  if(typeof(banco[3,x]) == 'character') {banco[x] <- sapply(banco[x],
+                                                            FUN = prim.maiuscula)}
+  if(typeof(banco[3,y]) == 'character') {banco[y] <- sapply(banco[y],
+                                                            FUN = prim.maiuscula)}
   
   if(!is.null(order))
   {banco[x] <- fct_relevel(factor((banco[[x]]), levels=order))}
@@ -307,8 +325,10 @@ bi_boxplot <- function(banco, x, y, xlab= '', ylab = '', color = '#767F8B', flip
     x
   }
   
-  if(typeof(banco[3,x]) == 'character') {banco[x] <- sapply(banco[x], FUN = prim.maiuscula)}
-  if(typeof(banco[3,y]) == 'character') {banco[y] <- sapply(banco[y], FUN = prim.maiuscula)}
+  if(typeof(banco[3,x]) == 'character') {banco[x] <- sapply(banco[x],
+                                                            FUN = prim.maiuscula)}
+  if(typeof(banco[3,y]) == 'character') {banco[y] <- sapply(banco[y],
+                                                            FUN = prim.maiuscula)}
   
   if(flip == F)
   { 
@@ -339,7 +359,8 @@ bi_boxplot <- function(banco, x, y, xlab= '', ylab = '', color = '#767F8B', flip
 ### Histograma
 
 ```{r histograma}
-histograma <- function(banco, var, xlab= '', ylab = 'Frequência', color = '#767F8B', media = T){
+histograma <- function(banco, var, xlab= '', ylab = 'Frequência',
+                       color = '#767F8B', media = T){
   
   banco <- banco[banco[var] != '',][var]
   
@@ -369,7 +390,9 @@ histograma <- function(banco, var, xlab= '', ylab = 'Frequência', color = '#767
   ggsave(arquivo)
 }
 
-bi_bar2 <- function(banco, x, y, ylab= 'Frequência', xlab = '', label_fill = '', color = c('#767F8B', '#B3B7B8'), label_size = 0.25, flip = F,order = NULL, order_fill = NULL){
+bi_bar2 <- function(banco, x, y, ylab= 'Frequência', xlab = '', label_fill = '',
+                    color = c('#767F8B', '#B3B7B8'), label_size = 0.25, flip = F,
+                    order = NULL, order_fill = NULL){
   
   banco <- banco[banco[x] != '' & banco[y] != '',][,c(x,y)]
   prim.maiuscula <- function(x) {
@@ -378,8 +401,10 @@ bi_bar2 <- function(banco, x, y, ylab= 'Frequência', xlab = '', label_fill = ''
     x
   }
   
-  if(typeof(banco[3,x]) == 'character') {banco[x] <- sapply(banco[x], FUN = prim.maiuscula)}
-  if(typeof(banco[3,y]) == 'character') {banco[y] <- sapply(banco[y], FUN = prim.maiuscula)}
+  if(typeof(banco[3,x]) == 'character') {banco[x] <- sapply(banco[x],
+                                                            FUN = prim.maiuscula)}
+  if(typeof(banco[3,y]) == 'character') {banco[y] <- sapply(banco[y],
+                                                            FUN = prim.maiuscula)}
   
   if(!is.null(order))
   {banco[x] <- fct_relevel(factor((banco[[x]]), levels=order))}
