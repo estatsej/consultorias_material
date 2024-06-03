@@ -128,12 +128,18 @@ pct_format = scales::percent_format(accuracy = .1)
 ```
 
 ### Dados usados nos exemplos
+
+A base de dados r mtcars consiste de uma planilha disponível no r base cujo os dados foram extraídos da revista Motor Trend US magazine de 1974. Os dados inseridos consistem do consumo de combustível, 10 características físicas e/ou performance de 32 automóveis (modelos de 1973-1974). A planilha do r mtcars consiste em 32 obsevações (modelo do carro) com 11 variáveis numéricas.
+
 ```{r}
 head(mtcars)
 str(mtcars)
 ```
 
 ### Gráfico de barras univariado
+
+Um gráfico de barras univariado é uma representação visual utilizada para mostrar a distribuição de uma variável categórica ou quantitativa discreta. Ele é chamado de "univariado" porque apresenta apenas uma variável. Segue uma função que automatiza o processo:
+
 ```{r barras univariado}
 uni_bar <- function(banco, var, ylab= 'Frequência', xlab = '',
                     color = '#767F8B', order = NULL, flip = F){
@@ -198,6 +204,8 @@ uni_bar(mtcars, 'cyl')
 
 
 ### Gráfico de barras bivariado
+
+Um gráfico de barras bivariado é utilizado para comparar duas variáveis, mostrando a relação entre elas. Diferente do gráfico de barras univariado, que foca em uma única variável, o gráfico de barras bivariado busca ilustrar como duas variáveis se relacionam, geralmente categóricas. Segue uma função que automatiza o processo:
 
 ```{r Barras bivariado}
 bi_bar <- function(banco, x, y, ylab= 'Frequência', xlab = '', label_fill = '',
@@ -275,6 +283,8 @@ bi_bar(mtcars, 'cyl', 'am')
 
 ### Boxplot
 
+Também conhecido como diagrama de caixa ou gráfico de caixa, é uma representação gráfica utilizada para descrever a distribuição, a dispersão e a presença de possíveis outliers em um conjunto de dados. Ele resume os principais aspectos de um conjunto de dados através de cinco números: mínimo, primeiro quartil (Q1), mediana (Q2), terceiro quartil (Q3) e máximo. O boxplot é particularmente útil para comparar distribuições entre várias categorias. Segue uma função que automatiza o processo:
+
 ```{r boxplot}
 uni_boxplot <- function(banco, var, xlab= '', ylab = '', color = '#767F8B', flip = F){
   
@@ -322,6 +332,8 @@ uni_boxplot(mtcars, 'mpg')
 
 
 ### Boxplot bivariado
+
+Também conhecido como boxplot condicional ou gráfico de caixa condicional, é uma extensão do boxplot padrão que permite visualizar a distribuição de uma variável quantitativa condicionalmente a uma variável categórica. Essa técnica é útil para entender como a distribuição de uma variável numérica varia em relação a diferentes categorias. Segue uma função que automatiza o processo:
 
 ```{r boxplot bivariado}
 bi_boxplot <- function(banco, x, y, xlab= '', ylab = '', color = '#767F8B', flip = F){
@@ -372,6 +384,8 @@ bi_boxplot(mtcars, 'cyl', 'drat')
 
 
 ### Histograma
+
+É um tipo de gráfico de barras usado em estatística para representar a distribuição de frequência de um conjunto de dados contínuos ou discretos. Ele mostra a frequência com que determinados intervalos de valores ocorrem em um conjunto de dados, dividindo o intervalo de valores em segmentos chamados "bins" ou "classes". Cada bin representa um intervalo de valores e a altura de cada barra indica a frequência ou a proporção de observações que caem dentro desse intervalo. Segue uma função que automatiza o processo:
 
 ```{r histograma}
 histograma <- function(banco, var, xlab= '', ylab = 'Frequência',
