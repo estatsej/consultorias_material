@@ -531,7 +531,7 @@ ficando,
 ![](img/tabfreq/tabfreq4.png)
 
 
-Por fim, é só compilar o arquivo e a tabela aparecerá.
+Por fim, só precisa compilar o arquivo e a tabela aparecerá.
 
 
 ## 3.3. Interpretação
