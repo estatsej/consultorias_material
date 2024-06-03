@@ -484,7 +484,41 @@ Colocar alguns exemplos das estruturas dos dados errados e como corrigi-los com 
 
 ## 3.2. Tabelas de Frequência
 
-Criar tabelas excel ou R pra colocar no overleaf.
+Para adicionar uma tabela de frequência a um relatório no overleaf, utilizamos o site [Tables Generator](https:www.tablesgenerator.com) , nele é possível digitar os dados da tabela ou colar de uma planilha do google sheets:
+
+
+![](img/tabfreq/tabfreq1.png)
+
+
+Criamos uma matriz para demonstrar, e então copiamos do google sheets e colamos no tables generator:
+
+
+![](img/tabfreq/tabfreq2.png)
+
+
+Agora, para manter o padrão mudamos o estilo para Booktabs table style e depois criamos a tabela apertando em generate:
+
+
+![](img/tabfreq/tabfreq3.png)
+
+
+Então, copiamos a tabela gerada, apertando em copy to clipboard e colamos no overleaf, antes de compilar é necessário inserir um “h” em
+
+
+ \begin{table}[]
+ 
+ 
+ficando,
+
+
+\begin{table}[h]
+
+
+![](img/tabfreq/tabfreq4.png)
+
+
+Por fim, é só compilar o arquivo e a tabela aparecerá.
+
 
 ## 3.3. Interpretação
 
