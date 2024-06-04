@@ -339,7 +339,7 @@ Também conhecido como boxplot condicional ou gráfico de caixa condicional, é 
 bi_boxplot <- function(banco, x, y, xlab= '', ylab = '', color = '#767F8B', flip = F){
   
   banco <- banco[!is.na(banco[x]) & !is.na(banco[y]),][,c(x,y)]
-  
+  banco[x] <- as.factor(banco[[x]])
   prim.maiuscula <- function(x) {
     x <- tolower(x)
     substr(x, 1, 1) <- toupper(substr(x, 1, 1))
@@ -380,6 +380,8 @@ bi_boxplot <- function(banco, x, y, xlab= '', ylab = '', color = '#767F8B', flip
 
 ```{r, message=FALSE}
 bi_boxplot(mtcars, 'cyl', 'drat')
+
+
 ```
 
 
