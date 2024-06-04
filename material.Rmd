@@ -540,4 +540,38 @@ Colocar exemplos de interpretação, como e quanto interpretar, dicas via exempl
 
 # 4. Overleaf
 
-O básico do overleaf, as expressões, inserir imagens e tabelas.
+O Overleaf é um editor de texto online com a escrita Latex, e utilizamos ele para escrever os relatórios da Estats
+
+## 4.1. Inserindo imagens no Overleaf
+
+
+Para adicionar imagens a um relatório no Overleaf, o arquivo deve estar em formato PDF e, em seguida, será necessário fazer o upload dele na pasta de figuras:
+
+
+![](img/tabfreq/addimagem1.png)
+
+
+Podemos inserir arquivos do computador ou de outros projetos. Usando o pacote “graphicx”, escrevemos o código a seguir:
+
+
+![](img/tabfreq/addimagem2.png)
+E então,
+ no
+ includegraphics[_]{_} indicar a escala da imagem, o  nome da pasta e do arquivo, 
+ 
+ 
+no 
+caption{_} adicionar o título da figura,
+
+
+e em 
+begin{figure}[_] adicionar o “h”.
+
+
+Por fim, é só compilar o relatório.
+
+
+## 4.2.Escrevendo comentários no Overleaf
+
+
+Para fazer um cometário no relatório em overleaf, basta escrever um % no começo da linha.
