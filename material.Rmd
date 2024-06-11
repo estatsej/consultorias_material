@@ -540,6 +540,39 @@ Por fim, só precisa compilar o arquivo e a tabela aparecerá.
 
 Colocar exemplos de interpretação, como e quanto interpretar, dicas via exemplos para não escrever pouco e nem muito.
 
+
+```{r}
+library(ggplot2)
+df <- data.frame(y=rnorm(200, 0, 2.5))
+
+ggplot(df, aes(sample=y)) +
+  stat_qq() + 
+  stat_qq_line()
+```
+
+
+```{r}
+
+
+library(ggplot2)
+library(dplyr)
+library(tibble)
+
+
+lower_bound <- apply(df, 1, function(y) quantile(y, probs = (1 - 0.95) / 2))
+upper_bound <- apply(df, 1, function(y) quantile(y, probs = (1 + 0.95) / 2))
+
+ggplot() +
+  geom_point(aes(sample = df), stat = "qq", color = "blue") +
+  geom_abline(slope = 1, intercept = 0, color = "red") +
+  geom_ribbon(aes(x = rnorm(200,0,1), ymin = lower_bound, ymax = upper_bound), alpha = 0.2, fill = "red") +
+  ggtitle("Gráfico Q-Q com Bandas de Confiança") +
+  xlab("Quantis Teóricos") +
+  ylab("Quantis dos Dados")
+
+```
+
+
 # 4. Overleaf
 
 O Overleaf é um editor de texto online com a escrita Latex, e utilizamos ele para escrever os relatórios da Estats
