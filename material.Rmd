@@ -538,6 +538,12 @@ Por fim, só precisa compilar o arquivo e a tabela aparecerá.
 
 Colocar exemplos de interpretação, como e quanto interpretar, dicas via exemplos para não escrever pouco e nem muito.
 
+```{r}
+uni_boxplot(iris, 'Sepal.Width')
+```
+
+No boxplot acima, a largura das sepalas possui uma mediana de aproximadamente 3 e  sua distribuição tem indícios de ser simétrica.
+
 # 4. Overleaf
 
 O Overleaf é um editor de texto online com a escrita Latex, e utilizamos ele para escrever os relatórios da Estats
@@ -571,7 +577,7 @@ begin{figure}[_] adicionar o “h”.
 Por fim, é só compilar o relatório.
 
 
-## 4.2.Escrevendo comentários no Overleaf
+## 4.2. Escrevendo comentários no Overleaf
 
 
 Para fazer um cometário no relatório em overleaf, basta escrever um % no começo da linha.
