@@ -541,6 +541,19 @@ Por fim, só precisa compilar o arquivo e a tabela aparecerá.
 Colocar exemplos de interpretação, como e quanto interpretar, dicas via exemplos para não escrever pouco e nem muito.
 
 
+```{r, message=FALSE, echo=FALSE}
+uni_bar(mtcars, 'cyl')
+```
+
+Na figura acima podemos visualizar a frequência da variável Cyl dentro do banco de dados, demonstrando quantos carros possuem cada número de  cilindros.
+
+```{r, message=FALSE}
+bi_bar(mtcars, 'cyl', 'am')
+```
+
+Na figura acima podemos visualizar a frequência da variável Cyl considerando os tipos de transmissão do câmbio, demonstrando quantos carros possuem cada número de cilindros dado se é automático (0) ou manual (1).
+
+
 ```{r}
 library(ggplot2)
 df <- data.frame(y=rnorm(200, 0, 2.5))
