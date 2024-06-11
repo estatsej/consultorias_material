@@ -542,7 +542,8 @@ Colocar exemplos de interpretação, como e quanto interpretar, dicas via exempl
 uni_boxplot(iris, 'Sepal.Width')
 ```
 
-No boxplot acima, a largura das sepalas possui uma mediana de aproximadamente 3 e  sua distribuição tem indícios de ser simétrica.
+No boxplot acima, a largura das sepalas possui uma mediana de
+aproximadamente 3 e  sua distribuição tem indicios de ser simetrica.
 
 # 4. Overleaf
 
