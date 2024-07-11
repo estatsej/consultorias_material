@@ -1,0 +1,809 @@
+N,Nome,Elemento,Ataque,Defesa,Ataque.especial,Defesa.especial,Velocidade,Geracao,Lendário,Classificação
+1,Bulbasaur,"Planta,Venenoso",49,49,65,65,45,1,Não,1. Péssimo
+2,Ivysaur,"Planta,Venenoso",62,63,80,80,60,1,Não,2. Ruim
+3,Venusaur,"Planta,Venenoso",82,83,100,100,80,1,Nao,3. Mediano
+3,VenusaurMega Venusaur,"Planta,Venenoso",100,123,122,120,80,1,Não,4. Bom
+4,Charmander,Fogo,52,43,60,50,65,1,Não,5. Ótimo
+5,Charmeleon,Fogo,64,58,80,65,80,1,Não,1. Péssimo
+6,Charizard,"Fogo,Voador",84,78,109,85,100,1,Não,2. Ruim
+6,CharizardMega Charizard X,"Fogo,Dragao",130,111,130,85,100,1,Nao,3. Mediano
+6,CharizardMega Charizard Y,"Fogo,Voador",104,78,159,115,100,1,Não,4. Bom
+7,Squirtle,Agua,48,65,50,64,43,1,Não,5. Ótimo
+8,Wartortle,Agua,63,80,65,80,58,1,Não,1. Péssimo
+9,Blastoise,Agua,83,100,85,105,78,1,Não,2. Ruim
+9,BlastoiseMega Blastoise,Agua,103,120,135,115,78,1,Não,3. Mediano
+10,Caterpie,Inseto,30,35,20,20,45,1,Nao,4. Bom
+11,Metapod,Inseto,20,55,25,25,30,1,Não,5. Ótimo
+12,Butterfree,"Inseto,Voador",45,50,90,80,70,1,Não,1. Péssimo
+13,Weedle,"Inseto,Venenoso",35,30,20,20,50,1,NÃo,2. Ruim
+14,Kakuna,"Inseto,Venenoso",25,50,25,25,35,1,Não,3. Mediano
+15,Beedrill,"Inseto,Venenoso",90,40,45,80,75,1,Não,4. Bom
+15,BeedrillMega Beedrill,"Inseto,Venenoso",150,40,15,80,145,1,Não,5. Ótimo
+16,Pidgey,"Normal,Voador",45,40,35,35,56,1,nao,1. Péssimo
+17,Pidgeotto,"Normal,Voador",60,55,50,50,71,1,Não,2. Ruim
+18,Pidgeot,"Normal,Voador",80,75,70,70,101,1,Não,3. Mediano
+18,PidgeotMega Pidgeot,"Normal,Voador",80,80,135,80,121,1,Não,4. Bom
+19,Rattata,Normal,56,35,25,35,72,1,Não,5. Ótimo
+20,Raticate,Normal,81,60,50,70,97,1,Não,1. Péssimo
+21,Spearow,"Normal,Voador",60,30,31,31,70,1,Não,2. Ruim
+22,Fearow,"Normal,Voador",90,65,61,61,100,1,Não,3. Mediano
+23,Ekans,Venenoso,60,44,40,54,55,1,nao,4. Bom
+24,Arbok,Venenoso,85,69,65,79,80,1,Não,5. Ótimo
+25,Pikachu,Eletrico,55,40,50,50,90,1,Não,1. Péssimo
+26,Raichu,Eletrico,90,55,90,80,110,1,Não,2. Ruim
+27,Sandshrew,Terra,75,85,20,30,40,1,Não,3. Mediano
+28,Sandslash,Terra,100,110,45,55,65,1,Não,4. Bom
+29,Nidoran♀,Venenoso,47,52,40,40,41,1,Não,5. Ótimo
+30,Nidorina,Venenoso,62,67,55,55,56,1,Não,1. Péssimo
+31,Nidoqueen,"Venenoso,Terra",92,87,75,85,76,1,Não,2. Ruim
+32,Nidoran♂,Venenoso,57,40,40,40,50,1,Não,3. Mediano
+33,Nidorino,Venenoso,72,57,55,55,65,1,Não,4. Bom
+34,Nidoking,"Venenoso,Terra",102,77,85,75,85,1,Não,5. Ótimo
+35,Clefairy,Fada,45,48,60,65,35,1,Não,1. Péssimo
+36,Clefable,Fada,70,73,95,90,60,1,Não,2. Ruim
+37,Vulpix,Fogo,41,40,50,65,65,1,Não,3. Mediano
+38,Ninetales,Fogo,76,75,81,100,100,1,Não,4. Bom
+39,Jigglypuff,"Normal,Fada",45,20,45,25,20,1,Não,5. Ótimo
+40,Wigglytuff,"Normal,Fada",70,45,85,50,45,1,Não,1. Péssimo
+41,Zubat,"Venenoso,Voador",45,35,30,40,55,1,Não,2. Ruim
+42,Golbat,"Venenoso,Voador",80,70,65,75,90,1,Não,3. Mediano
+43,Oddish,"Planta,Venenoso",50,55,75,65,30,1,Não,4. Bom
+44,Gloom,"Planta,Venenoso",65,70,85,75,40,1,Não,5. Ótimo
+45,Vileplume,"Planta,Venenoso",80,85,110,90,50,1,Não,1. Péssimo
+46,Paras,"Inseto,Planta",70,55,45,55,25,1,Não,2. Ruim
+47,Parasect,"Inseto,Planta",95,80,60,80,30,1,Não,3. Mediano
+48,Venonat,"Inseto,Venenoso",55,50,40,55,45,1,Não,4. Bom
+49,Venomoth,"Inseto,Venenoso",65,60,90,75,90,1,Não,5. Ótimo
+50,Diglett,Terra,55,25,35,45,95,1,Não,1. Péssimo
+51,Dugtrio,Terra,80,50,50,70,120,1,Não,2. Ruim
+52,Meowth,Normal,45,35,40,40,90,1,Não,3. Mediano
+53,Persian,Normal,70,60,65,65,115,1,Não,4. Bom
+54,Psyduck,Agua,52,48,65,50,55,1,Não,5. Ótimo
+55,Golduck,Agua,82,78,95,80,85,1,Não,1. Péssimo
+56,Mankey,Lutador,80,35,35,45,70,1,Não,2. Ruim
+57,Primeape,Lutador,105,60,60,70,95,1,Não,3. Mediano
+58,Growlithe,Fogo,70,45,70,50,60,1,Não,4. Bom
+59,Arcanine,Fogo,110,80,100,80,95,1,Não,5. Ótimo
+60,Poliwag,Agua,50,40,40,40,90,1,Não,1. Péssimo
+61,Poliwhirl,Agua,65,65,50,50,90,1,Não,2. Ruim
+62,Poliwrath,"Agua,Lutador",95,95,70,90,70,1,Não,3. Mediano
+63,Abra,Psiquico,20,15,105,55,90,1,Não,4. Bom
+64,Kadabra,Psiquico,35,30,120,70,105,1,Não,5. Ótimo
+65,Alakazam,Psiquico,50,45,135,95,120,1,Não,1. Péssimo
+65,AlakazamMega Alakazam,Psiquico,50,65,175,95,150,1,Não,2. Ruim
+66,Machop,Lutador,80,50,35,35,35,1,Não,3. Mediano
+67,Machoke,Lutador,100,70,50,60,45,1,Não,4. Bom
+68,Machamp,Lutador,130,80,65,85,55,1,Não,5. Ótimo
+69,Bellsprout,"Planta,Venenoso",75,35,70,30,40,1,Não,1. Péssimo
+70,Weepinbell,"Planta,Venenoso",90,50,85,45,55,1,Não,2. Ruim
+71,Victreebel,"Planta,Venenoso",105,65,100,70,70,1,Não,3. Mediano
+72,Tentacool,"Agua,Venenoso",40,35,50,100,70,1,Não,4. Bom
+73,Tentacruel,"Agua,Venenoso",70,65,80,120,100,1,Não,5. Ótimo
+74,Geodude,"Rocha,Terra",80,100,30,30,20,1,Não,1. Péssimo
+75,Graveler,"Rocha,Terra",95,115,45,45,35,1,Não,2. Ruim
+76,Golem,"Rocha,Terra",120,130,55,65,45,NA,Não,3. Mediano
+77,Ponyta,Fogo,85,55,65,65,90,1,Não,4. Bom
+78,Rapidash,Fogo,100,70,80,80,105,1,Não,5. Ótimo
+79,Slowpoke,"Agua,Psiquico",65,65,40,40,15,1,Não,1. Péssimo
+80,Slowbro,"Agua,Psiquico",75,110,100,80,30,1,Não,2. Ruim
+80,SlowbroMega Slowbro,"Agua,Psiquico",75,180,130,80,30,1,Não,3. Mediano
+81,Magnemite,"Eletrico,Metal",35,70,95,55,45,1,Não,4. Bom
+82,Magneton,"Eletrico,Metal",60,95,120,70,70,1,Não,5. Ótimo
+83,Farfetch'd,"Normal,Voador",65,55,58,62,60,1,Não,1. Péssimo
+84,Doduo,"Normal,Voador",85,45,35,35,75,1,Não,2. Ruim
+85,Dodrio,"Normal,Voador",110,70,60,60,100,1,Não,3. Mediano
+86,Seel,Agua,45,55,45,70,45,1,Não,4. Bom
+87,Dewgong,"Agua,Gelo",70,80,70,95,70,1,Não,5. Ótimo
+88,Grimer,Venenoso,80,50,40,50,25,1,Não,1. Péssimo
+,,,,,,,,,,
+,,,,,,,,,,
+89,Muk,Venenoso,105,75,65,100,50,1,Não,2. Ruim
+90,Shellder,Agua,65,100,45,25,40,1,Não,3. Mediano
+91,Cloyster,"Agua,Gelo",95,180,85,45,70,1,Não,4. Bom
+92,Gastly,"Fantasma,Venenoso",35,30,100,35,80,1,Não,5. Ótimo
+93,Haunter,"Fantasma,Venenoso",50,45,115,55,95,1,Não,1. Péssimo
+94,Gengar,"Fantasma,Venenoso",65,60,130,75,110,1,Não,2. Ruim
+94,GengarMega Gengar,"Fantasma,Venenoso",65,80,170,95,130,1,Não,3. Mediano
+95,Onix,"Rocha,Terra",45,160,30,45,70,1,Não,4. Bom
+96,Drowzee,Psiquico,48,45,43,90,42,1,Não,5. Ótimo
+97,Hypno,Psiquico,73,70,73,115,67,1,Não,1. Péssimo
+98,Krabby,Agua,105,90,25,25,50,1,Não,2. Ruim
+99,Kingler,Agua,130,115,50,50,75,1,Não,3. Mediano
+100,Voltorb,Eletrico,30,50,55,55,100,1,Não,4. Bom
+101,Electrode,Eletrico,50,70,80,80,140,1,Não,5. Ótimo
+102,Exeggcute,"Planta,Psiquico",40,80,60,45,40,1,Não,1. Péssimo
+103,Exeggutor,"Planta,Psiquico",95,85,125,65,55,1,Não,2. Ruim
+104,Cubone,Terra,50,95,40,50,35,1,Não,3. Mediano
+105,Marowak,Terra,80,110,50,80,45,1,Não,4. Bom
+106,Hitmonlee,Lutador,120,53,35,110,87,1,Não,5. Ótimo
+107,Hitmonchan,Lutador,105,79,35,110,76,1,Não,1. Péssimo
+108,Lickitung,Normal,55,75,60,75,30,1,Não,2. Ruim
+109,Koffing,Venenoso,65,95,60,45,35,1,Não,3. Mediano
+110,Weezing,Venenoso,90,120,85,70,60,1,Não,4. Bom
+111,Rhyhorn,"Terra,Rocha",85,95,30,30,25,1,Não,5. Ótimo
+112,Rhydon,"Terra,Rocha",130,120,45,45,40,1,Não,1. Péssimo
+113,Chansey,Normal,5,5,35,105,50,1,Não,2. Ruim
+114,Tangela,Planta,55,115,100,40,60,1,Não,3. Mediano
+115,Kangaskhan,Normal,95,80,40,80,90,1,Não,4. Bom
+115,KangaskhanMega Kangaskhan,Normal,125,100,60,100,100,1,Não,5. Ótimo
+116,Horsea,Agua,40,70,70,25,60,1,Não,1. Péssimo
+117,Seadra,Agua,65,95,95,45,85,1,Não,2. Ruim
+118,Goldeen,Agua,67,60,35,50,63,1,Não,3. Mediano
+119,Seaking,Agua,92,65,65,80,68,NA,Não,4. Bom
+120,Staryu,Agua,45,55,70,55,85,1,Não,5. Ótimo
+121,Starmie,"Agua,Psiquico",75,85,100,85,115,1,Não,1. Péssimo
+122,Mr. Mime,"Psiquico,Fada",45,65,100,120,90,1,Não,2. Ruim
+123,Scyther,"Inseto,Voador",110,80,55,80,105,1,Não,3. Mediano
+124,Jynx,"Gelo,Psiquico",50,35,115,95,95,1,Não,4. Bom
+125,Electabuzz,Eletrico,83,57,95,85,105,1,Não,5. Ótimo
+126,Magmar,Fogo,95,57,100,85,93,1,Não,1. Péssimo
+127,Pinsir,Inseto,125,100,55,70,85,1,Não,2. Ruim
+127,PinsirMega Pinsir,"Inseto,Voador",155,120,65,90,105,1,Não,3. Mediano
+128,Tauros,Normal,100,95,40,70,110,1,Não,4. Bom
+129,Magikarp,Agua,10,55,15,20,80,1,Não,5. Ótimo
+130,Gyarados,"Agua,Voador",125,79,60,100,81,1,Não,1. Péssimo
+130,GyaradosMega Gyarados,"Agua,Escuridao",155,109,70,130,81,1,Não,2. Ruim
+131,Lapras,"Agua,Gelo",85,80,85,95,60,1,Não,3. Mediano
+132,Ditto,Normal,48,48,48,48,48,1,Não,4. Bom
+133,Eevee,Normal,55,50,45,65,55,1,Não,5. Ótimo
+,,,,,,,,,,
+134,Vaporeon,Agua,65,60,110,95,65,1,Não,1. Péssimo
+135,Jolteon,Eletrico,65,60,110,95,130,1,Não,2. Ruim
+136,Flareon,Fogo,130,60,95,110,65,1,Não,3. Mediano
+137,Porygon,Normal,60,70,85,75,40,1,Não,4. Bom
+138,Omanyte,"Rocha,Agua",40,100,90,55,35,1,Não,5. Ótimo
+139,Omastar,"Rocha,Agua",60,125,115,70,55,1,Não,1. Péssimo
+140,Kabuto,"Rocha,Agua",80,90,55,45,55,1,Não,2. Ruim
+141,Kabutops,"Rocha,Agua",115,105,65,70,80,1,Não,3. Mediano
+142,Aerodactyl,"Rocha,Voador",105,65,60,75,130,1,Não,4. Bom
+142,AerodactylMega Aerodactyl,"Rocha,Voador",135,85,70,95,150,1,Não,5. Ótimo
+143,Snorlax,Normal,110,65,65,110,30,1,Não,1. Péssimo
+144,Articuno,"Gelo,Voador",85,100,95,125,85,1,Sim,2. Ruim
+145,Zapdos,"Eletrico,Voador",90,85,125,90,100,1,Sim,3. Mediano
+146,Moltres,"Fogo,Voador",100,90,125,85,90,NA,Sim,4. Bom
+147,Dratini,Dragao,64,45,50,50,50,1,Não,5. Ótimo
+148,Dragonair,Dragao,84,65,70,70,70,1,Não,1. Péssimo
+149,Dragonite,"Dragao,Voador",134,95,100,100,80,1,Não,2. Ruim
+150,Mewtwo,Psiquico,110,90,154,90,130,1,Sim,3. Mediano
+150,MewtwoMega Mewtwo X,"Psiquico,Lutador",190,100,154,100,130,1,Sim,4. Bom
+150,MewtwoMega Mewtwo Y,Psiquico,150,70,194,120,140,1,Sim,5. Ótimo
+151,Mew,Psiquico,100,100,100,100,100,1,Não,1. Péssimo
+152,Chikorita,Planta,49,65,49,65,45,2,Não,2. Ruim
+153,Bayleef,Planta,62,80,63,80,60,2,Não,3. Mediano
+154,Meganium,Planta,82,100,83,100,80,2,Não,4. Bom
+155,Cyndaquil,Fogo,52,43,60,50,65,2,Não,5. Ótimo
+156,Quilava,Fogo,64,58,80,65,80,2,Não,1. Péssimo
+157,Typhlosion,Fogo,84,78,109,85,100,2,Não,2. Ruim
+158,Totodile,Agua,65,64,44,48,43,2,Não,3. Mediano
+159,Croconaw,Agua,80,80,59,63,58,2,Não,4. Bom
+160,Feraligatr,Agua,105,100,79,83,78,2,Não,5. Ótimo
+161,Sentret,Normal,46,34,35,45,20,2,Não,1. Péssimo
+162,Furret,Normal,76,64,45,55,90,2,Não,2. Ruim
+163,Hoothoot,"Normal,Voador",30,30,36,56,50,2,Não,3. Mediano
+164,Noctowl,"Normal,Voador",50,50,76,96,70,2,Não,4. Bom
+165,Ledyba,"Inseto,Voador",20,30,40,80,55,2,Não,5. Ótimo
+166,Ledian,"Inseto,Voador",35,50,55,110,85,2,Não,1. Péssimo
+167,Spinarak,"Inseto,Venenoso",60,40,40,40,30,2,Não,2. Ruim
+168,Ariados,"Inseto,Venenoso",90,70,60,60,40,2,Não,3. Mediano
+169,Crobat,"Venenoso,Voador",90,80,70,80,130,2,Não,4. Bom
+170,Chinchou,"Agua,Eletrico",38,38,56,56,67,2,Não,5. Ótimo
+171,Lanturn,"Agua,Eletrico",58,58,76,76,67,2,Não,1. Péssimo
+172,Pichu,Eletrico,40,15,35,35,60,2,Não,2. Ruim
+173,Cleffa,Fada,25,28,45,55,15,2,Não,3. Mediano
+174,Igglybuff,"Normal,Fada",30,15,40,20,15,NA,Não,4. Bom
+175,Togepi,Fada,20,65,40,65,20,2,Não,5. Ótimo
+176,Togetic,"Fada,Voador",40,85,80,105,40,2,Não,1. Péssimo
+177,Natu,"Psiquico,Voador",50,45,70,45,70,2,Não,2. Ruim
+178,Xatu,"Psiquico,Voador",75,70,95,70,95,2,Não,3. Mediano
+179,Mareep,Eletrico,40,40,65,45,35,2,Não,4. Bom
+180,Flaaffy,Eletrico,55,55,80,60,45,2,Não,5. Ótimo
+181,Ampharos,Eletrico,75,85,115,90,55,2,Não,1. Péssimo
+181,AmpharosMega Ampharos,"Eletrico,Dragao",95,105,165,110,45,2,Não,2. Ruim
+182,Bellossom,Planta,80,95,90,100,50,2,Não,3. Mediano
+183,Marill,"Agua,Fada",20,50,20,50,40,2,Não,4. Bom
+184,Azumarill,"Agua,Fada",50,80,60,80,50,2,Não,5. Ótimo
+185,Sudowoodo,Rocha,100,115,30,65,30,2,Não,1. Péssimo
+186,Politoed,Agua,75,75,90,100,70,2,Não,2. Ruim
+187,Hoppip,"Planta,Voador",35,40,35,55,50,2,Não,3. Mediano
+188,Skiploom,"Planta,Voador",45,50,45,65,80,2,Não,4. Bom
+189,Jumpluff,"Planta,Voador",55,70,55,95,110,2,Não,5. Ótimo
+190,Aipom,Normal,70,55,40,55,85,2,Não,1. Péssimo
+191,Sunkern,Planta,30,30,30,30,30,2,Não,2. Ruim
+192,Sunflora,Planta,75,55,105,85,30,2,Não,3. Mediano
+193,Yanma,"Inseto,Voador",65,45,75,45,95,2,Não,4. Bom
+194,Wooper,"Agua,Terra",45,45,25,25,15,2,Não,5. Ótimo
+195,Quagsire,"Agua,Terra",85,85,65,65,35,2,Não,1. Péssimo
+196,Espeon,Psiquico,65,60,130,95,110,2,Não,2. Ruim
+197,Umbreon,Escuridao,65,110,60,130,65,2,Não,3. Mediano
+198,Murkrow,"Escuridao,Voador",85,42,85,42,91,2,Não,4. Bom
+199,Slowking,"Agua,Psiquico",75,80,100,110,30,2,Não,5. Ótimo
+200,Misdreavus,Fantasma,60,60,85,85,85,2,Não,1. Péssimo
+201,Unown,Psiquico,72,48,72,48,48,2,Não,2. Ruim
+202,Wobbuffet,Psiquico,33,58,33,58,33,2,Não,3. Mediano
+203,Girafarig,"Normal,Psiquico",80,65,90,65,85,2,Não,4. Bom
+,,,,,,,,,,
+204,Pineco,Inseto,65,90,35,35,15,2,Não,5. Ótimo
+205,Forretress,"Inseto,Metal",90,140,60,60,40,2,Não,1. Péssimo
+206,Dunsparce,Normal,70,70,65,65,45,2,Não,2. Ruim
+207,Gligar,"Terra,Voador",75,105,35,65,85,2,Não,3. Mediano
+208,Steelix,"Metal,Terra",85,200,55,65,30,2,Não,4. Bom
+208,SteelixMega Steelix,"Metal,Terra",125,230,55,95,30,2,Não,5. Ótimo
+209,Snubbull,Fada,80,50,40,40,30,2,Não,1. Péssimo
+210,Granbull,Fada,120,75,60,60,45,2,Não,2. Ruim
+211,Qwilfish,"Agua,Venenoso",95,75,55,55,85,2,Não,3. Mediano
+212,Scizor,"Inseto,Metal",130,100,55,80,65,2,Não,4. Bom
+212,ScizorMega Scizor,"Inseto,Metal",150,140,65,100,75,2,Não,5. Ótimo
+213,Shuckle,"Inseto,Rocha",10,230,10,230,5,2,Não,1. Péssimo
+214,Heracross,"Inseto,Lutador",125,75,40,95,85,2,Não,2. Ruim
+214,HeracrossMega Heracross,"Inseto,Lutador",185,115,40,105,75,2,Não,3. Mediano
+215,Sneasel,"Escuridao,Gelo",95,55,35,75,115,2,Não,4. Bom
+216,Teddiursa,Normal,80,50,50,50,40,2,Não,5. Ótimo
+217,Ursaring,Normal,130,75,75,75,55,2,Não,1. Péssimo
+218,Slugma,Fogo,40,40,70,40,20,2,Não,2. Ruim
+219,Magcargo,"Fogo,Rocha",50,120,80,80,30,2,Não,3. Mediano
+220,Swinub,"Gelo,Terra",50,40,30,30,50,2,Não,4. Bom
+221,Piloswine,"Gelo,Terra",100,80,60,60,50,2,Não,5. Ótimo
+222,Corsola,"Agua,Rocha",55,85,65,85,35,2,Não,1. Péssimo
+223,Remoraid,Agua,65,35,65,35,65,2,Não,2. Ruim
+224,Octillery,Agua,105,75,105,75,45,2,ñ,3. Mediano
+225,Delibird,"Gelo,Voador",55,45,65,45,75,NA,Não,4. Bom
+226,Mantine,"Agua,Voador",40,70,80,140,70,2,Não,5. Ótimo
+227,Skarmory,"Metal,Voador",80,140,40,70,70,2,Não,1. Péssimo
+228,Houndour,"Escuridao,Fogo",60,30,80,50,65,2,Não,2. Ruim
+229,Houndoom,"Escuridao,Fogo",90,50,110,80,95,2,Não,3. Mediano
+229,HoundoomMega Houndoom,"Escuridao,Fogo",90,90,140,90,115,2,Não,4. Bom
+230,Kingdra,"Agua,Dragao",95,95,95,95,85,2,Não,5. Ótimo
+231,Phanpy,Terra,60,60,40,40,40,2,Não,1. Péssimo
+232,Donphan,Terra,120,120,60,60,50,2,Não,2. Ruim
+233,Porygon2,Normal,80,90,105,95,60,2,Não,3. Mediano
+234,Stantler,Normal,95,62,85,65,85,2,Não,4. Bom
+235,Smeargle,Normal,20,35,20,45,75,2,Não,5. Ótimo
+236,Tyrogue,Lutador,35,35,35,35,35,2,Não,1. Péssimo
+237,Hitmontop,Lutador,95,95,35,110,70,2,Não,2. Ruim
+238,Smoochum,"Gelo,Psiquico",30,15,85,65,65,2,Não,3. Mediano
+239,Elekid,Eletrico,63,37,65,55,95,2,Não,4. Bom
+240,Magby,Fogo,75,37,70,55,83,2,Não,5. Ótimo
+241,Miltank,Normal,80,105,40,70,100,2,Não,1. Péssimo
+242,Blissey,Normal,10,10,75,135,55,2,Não,2. Ruim
+243,Raikou,Eletrico,85,75,115,100,115,2,Sim,3. Mediano
+244,Entei,Fogo,115,85,90,75,100,2,Sim,4. Bom
+245,Suicune,Agua,75,115,90,115,85,2,Sim,5. Ótimo
+246,Larvitar,"Rocha,Terra",64,50,45,50,41,2,Não,1. Péssimo
+247,Pupitar,"Rocha,Terra",84,70,65,70,51,2,Não,2. Ruim
+248,Tyranitar,"Rocha,Escuridao",134,110,95,100,61,2,Nao,3. Mediano
+248,TyranitarMega Tyranitar,"Rocha,Escuridao",164,150,95,120,71,NA,Não,4. Bom
+249,Lugia,"Psiquico,Voador",90,130,90,154,110,2,Sim,5. Ótimo
+250,Ho-oh,"Fogo,Voador",130,90,110,154,90,2,Sim,1. Péssimo
+251,Celebi,"Psiquico,Planta",100,100,100,100,100,2,Não,2. Ruim
+252,Treecko,Planta,45,35,65,55,70,3,Não,3. Mediano
+253,Grovyle,Planta,65,45,85,65,95,3,Não,4. Bom
+254,Sceptile,Planta,85,65,105,85,120,3,Não,5. Ótimo
+254,SceptileMega Sceptile,"Planta,Dragao",110,75,145,85,145,3,Não,1. Péssimo
+255,Torchic,Fogo,60,40,70,50,45,3,Não,2. Ruim
+256,Combusken,"Fogo,Lutador",85,60,85,60,55,3,Não,3. Mediano
+257,Blaziken,"Fogo,Lutador",120,70,110,70,80,3,Não,4. Bom
+257,BlazikenMega Blaziken,"Fogo,Lutador",160,80,130,80,100,3,Não,5. Ótimo
+258,Mudkip,Agua,70,50,50,50,40,3,Não,1. Péssimo
+259,Marshtomp,"Agua,Terra",85,70,60,70,50,3,Não,2. Ruim
+260,Swampert,"Agua,Terra",110,90,85,90,60,3,Não,3. Mediano
+260,SwampertMega Swampert,"Agua,Terra",150,110,95,110,70,3,Não,4. Bom
+261,Poochyena,Escuridao,55,35,30,30,35,3,Não,5. Ótimo
+262,Mightyena,Escuridao,90,70,60,60,70,3,Não,1. Péssimo
+263,Zigzagoon,Normal,30,41,30,41,60,3,Não,2. Ruim
+264,Linoone,Normal,70,61,50,61,100,3,Não,3. Mediano
+265,Wurmple,Inseto,45,35,20,30,20,3,ñ,4. Bom
+266,Silcoon,Inseto,35,55,25,25,15,3,Não,5. Ótimo
+267,Beautifly,"Inseto,Voador",70,50,100,50,65,3,Não,1. Péssimo
+268,Cascoon,Inseto,35,55,25,25,15,3,Não,2. Ruim
+269,Dustox,"Inseto,Venenoso",50,70,50,90,65,3,Não,3. Mediano
+270,Lotad,"Agua,Planta",30,30,40,50,30,3,Não,4. Bom
+271,Lombre,"Agua,Planta",50,50,60,70,50,3,Não,5. Ótimo
+272,Ludicolo,"Agua,Planta",70,70,90,100,70,3,Não,1. Péssimo
+273,Seedot,Planta,40,50,30,30,30,3,Não,2. Ruim
+274,Nuzleaf,"Planta,Escuridao",70,40,60,40,60,3,Não,3. Mediano
+275,Shiftry,"Planta,Escuridao",100,60,90,60,80,NA,Não,4. Bom
+276,Taillow,"Normal,Voador",55,30,30,30,85,3,Não,5. Ótimo
+277,Swellow,"Normal,Voador",85,60,50,50,125,3,Não,1. Péssimo
+278,Wingull,"Agua,Voador",30,30,55,30,85,3,Não,2. Ruim
+279,Pelipper,"Agua,Voador",50,100,85,70,65,3,Não,3. Mediano
+280,Ralts,"Psiquico,Fada",25,25,45,35,40,3,Não,4. Bom
+281,Kirlia,"Psiquico,Fada",35,35,65,55,50,3,Não,5. Ótimo
+282,Gardevoir,"Psiquico,Fada",65,65,125,115,80,3,Nao,1. Péssimo
+282,GardevoirMega Gardevoir,"Psiquico,Fada",85,65,165,135,100,3,Não,2. Ruim
+283,Surskit,"Inseto,Agua",30,32,50,52,65,3,Não,3. Mediano
+284,Masquerain,"Inseto,Voador",60,62,80,82,60,3,Não,4. Bom
+285,Shroomish,Planta,40,60,40,60,35,3,Não,5. Ótimo
+286,Breloom,"Planta,Lutador",130,80,60,60,70,3,Não,1. Péssimo
+287,Slakoth,Normal,60,60,35,35,30,3,Não,2. Ruim
+288,Vigoroth,Normal,80,80,55,55,90,3,Não,3. Mediano
+289,Slaking,Normal,160,100,95,65,100,3,Não,4. Bom
+290,Nincada,"Inseto,Terra",45,90,30,30,40,3,Não,5. Ótimo
+291,Ninjask,"Inseto,Voador",90,45,50,50,160,3,Não,1. Péssimo
+292,Shedinja,"Inseto,Fantasma",90,45,30,30,40,3,Não,2. Ruim
+293,Whismur,Normal,51,23,51,23,28,3,Não,3. Mediano
+294,Loudred,Normal,71,43,71,43,48,3,Não,4. Bom
+295,Exploud,Normal,91,63,91,73,68,3,Não,5. Ótimo
+296,Makuhita,Lutador,60,30,20,30,25,3,Não,1. Péssimo
+297,Hariyama,Lutador,120,60,40,60,50,3,Não,2. Ruim
+298,Azurill,"Normal,Fada",20,40,20,40,20,3,Não,3. Mediano
+299,Nosepass,Rocha,45,135,45,90,30,3,Não,4. Bom
+300,Skitty,Normal,45,45,35,35,50,3,ñ,5. Ótimo
+301,Delcatty,Normal,65,65,55,55,70,3,Não,1. Péssimo
+302,Sableye,"Escuridao,Fantasma",75,75,65,65,50,3,Não,2. Ruim
+302,SableyeMega Sableye,"Escuridao,Fantasma",85,125,85,115,20,3,Não,3. Mediano
+303,Mawile,"Metal,Fada",85,85,55,55,50,3,Não,4. Bom
+303,MawileMega Mawile,"Metal,Fada",105,125,55,95,50,3,Não,5. Ótimo
+304,Aron,"Metal,Rocha",70,100,40,40,30,3,Não,1. Péssimo
+305,Lairon,"Metal,Rocha",90,140,50,50,40,3,Não,2. Ruim
+306,Aggron,"Metal,Rocha",110,180,60,60,50,3,Não,3. Mediano
+306,AggronMega Aggron,Metal,140,230,60,80,50,3,Não,4. Bom
+307,Meditite,"Lutador,Psiquico",40,55,40,55,60,3,Nao,5. Ótimo
+308,Medicham,"Lutador,Psiquico",60,75,60,75,80,3,Não,1. Péssimo
+308,MedichamMega Medicham,"Lutador,Psiquico",100,85,80,85,100,3,Não,2. Ruim
+309,Electrike,Eletrico,45,40,65,40,65,3,Não,3. Mediano
+310,Manectric,Eletrico,75,60,105,60,105,3,Não,4. Bom
+310,ManectricMega Manectric,Eletrico,75,80,135,80,135,3,Não,5. Ótimo
+311,Plusle,Eletrico,50,40,85,75,95,3,Não,1. Péssimo
+312,Minun,Eletrico,40,50,75,85,95,3,Não,2. Ruim
+313,Volbeat,Inseto,73,55,47,75,85,3,Não,3. Mediano
+314,Illumise,Inseto,47,55,73,75,85,3,Não,4. Bom
+315,Roselia,"Planta,Venenoso",60,45,100,80,65,3,Não,5. Ótimo
+316,Gulpin,Venenoso,43,53,43,53,40,3,Não,1. Péssimo
+317,Swalot,Venenoso,73,83,73,83,55,3,Não,2. Ruim
+318,Carvanha,"Agua,Escuridao",90,20,65,20,65,3,Não,3. Mediano
+319,Sharpedo,"Agua,Escuridao",120,40,95,40,95,3,Não,4. Bom
+319,SharpedoMega Sharpedo,"Agua,Escuridao",140,70,110,65,105,3,Não,5. Ótimo
+320,Wailmer,Agua,70,35,70,35,60,3,Não,1. Péssimo
+321,Wailord,Agua,90,45,90,45,60,3,Não,2. Ruim
+322,Numel,"Fogo,Terra",60,40,65,45,35,3,Não,3. Mediano
+323,Camerupt,"Fogo,Terra",100,70,105,75,40,3,Não,4. Bom
+323,CameruptMega Camerupt,"Fogo,Terra",120,100,145,105,20,3,Não,5. Ótimo
+324,Torkoal,Fogo,85,140,85,70,20,3,Não,1. Péssimo
+325,Spoink,Psiquico,25,35,70,80,60,3,Não,2. Ruim
+326,Grumpig,Psiquico,45,65,90,110,80,3,Não,3. Mediano
+327,Spinda,Normal,60,60,60,60,60,3,Não,4. Bom
+328,Trapinch,Terra,100,45,45,45,10,3,Não,5. Ótimo
+329,Vibrava,"Terra,Dragao",70,50,50,50,70,3,ñ,1. Péssimo
+330,Flygon,"Terra,Dragao",100,80,80,80,100,3,Não,2. Ruim
+331,Cacnea,Planta,85,40,85,40,35,3,Não,3. Mediano
+332,Cacturne,"Planta,Escuridao",115,60,115,60,55,3,Não,4. Bom
+333,Swablu,"Normal,Voador",40,60,40,75,50,3,Não,5. Ótimo
+334,Altaria,"Dragao,Voador",70,90,70,105,80,3,Não,1. Péssimo
+334,AltariaMega Altaria,"Dragao,Fada",110,110,110,105,80,3,Não,2. Ruim
+335,Zangoose,Normal,115,60,60,60,90,3,Não,3. Mediano
+336,Seviper,Venenoso,100,60,100,60,65,3,Não,4. Bom
+337,Lunatone,"Rocha,Psiquico",55,65,95,85,70,3,Não,5. Ótimo
+338,Solrock,"Rocha,Psiquico",95,85,55,65,70,3,Nao,1. Péssimo
+339,Barboach,"Agua,Terra",48,43,46,41,60,3,Não,2. Ruim
+340,Whiscash,"Agua,Terra",78,73,76,71,60,3,Não,3. Mediano
+341,Corphish,Agua,80,65,50,35,35,3,Não,4. Bom
+342,Crawdaunt,"Agua,Escuridao",120,85,90,55,55,3,Não,5. Ótimo
+343,Baltoy,"Terra,Psiquico",40,55,40,70,55,3,Não,1. Péssimo
+344,Claydol,"Terra,Psiquico",70,105,70,120,75,3,Não,2. Ruim
+345,Lileep,"Rocha,Planta",41,77,61,87,23,3,Não,3. Mediano
+346,Cradily,"Rocha,Planta",81,97,81,107,43,3,Não,4. Bom
+347,Anorith,"Rocha,Inseto",95,50,40,50,75,3,Não,5. Ótimo
+348,Armaldo,"Rocha,Inseto",125,100,70,80,45,3,Não,1. Péssimo
+349,Feebas,Agua,15,20,10,55,80,3,Não,2. Ruim
+350,Milotic,Agua,60,79,100,125,81,3,Não,3. Mediano
+351,Castform,Normal,70,70,70,70,70,3,Não,4. Bom
+352,Kecleon,Normal,90,70,60,120,40,3,Não,5. Ótimo
+,,,,,,,,,,
+353,Shuppet,Fantasma,75,35,63,33,45,3,Não,1. Péssimo
+354,Banette,Fantasma,115,65,83,63,65,3,Não,2. Ruim
+354,BanetteMega Banette,Fantasma,165,75,93,83,75,3,Não,3. Mediano
+355,Duskull,Fantasma,40,90,30,90,25,3,Não,4. Bom
+356,Dusclops,Fantasma,70,130,60,130,25,3,Não,5. Ótimo
+357,Tropius,"Planta,Voador",68,83,72,87,51,3,ñ,1. Péssimo
+358,Chimecho,Psiquico,50,70,95,80,65,3,Não,2. Ruim
+359,Absol,Escuridao,130,60,75,60,75,3,Não,3. Mediano
+359,AbsolMega Absol,Escuridao,150,60,115,60,115,3,Não,4. Bom
+360,Wynaut,Psiquico,23,48,23,48,23,3,Não,5. Ótimo
+361,Snorunt,Gelo,50,50,50,50,50,3,Não,1. Péssimo
+362,Glalie,Gelo,80,80,80,80,80,3,Não,2. Ruim
+362,GlalieMega Glalie,Gelo,120,80,120,80,100,3,Não,3. Mediano
+363,Spheal,"Gelo,Agua",40,50,55,50,25,3,Não,4. Bom
+364,Sealeo,"Gelo,Agua",60,70,75,70,45,3,Não,5. Ótimo
+365,Walrein,"Gelo,Agua",80,90,95,90,65,3,Não,1. Péssimo
+366,Clamperl,Agua,64,85,74,55,32,3,Não,2. Ruim
+367,Huntail,Agua,104,105,94,75,52,3,Não,3. Mediano
+368,Gorebyss,Agua,84,105,114,75,52,3,Não,4. Bom
+369,Relicanth,"Agua,Rocha",90,130,45,65,55,3,Não,5. Ótimo
+370,Luvdisc,Agua,30,55,40,65,97,3,nao,1. Péssimo
+371,Bagon,Dragao,75,60,40,30,50,3,Não,2. Ruim
+372,Shelgon,Dragao,95,100,60,50,50,3,Não,3. Mediano
+373,Salamence,"Dragao,Voador",135,80,110,80,100,3,Não,4. Bom
+373,SalamenceMega Salamence,"Dragao,Voador",145,130,120,90,120,3,Não,5. Ótimo
+374,Beldum,"Metal,Psiquico",55,80,35,60,30,3,Não,1. Péssimo
+375,Metang,"Metal,Psiquico",75,100,55,80,50,3,Não,2. Ruim
+376,Metagross,"Metal,Psiquico",135,130,95,90,70,3,Não,3. Mediano
+376,MetagrossMega Metagross,"Metal,Psiquico",145,150,105,110,110,3,Não,4. Bom
+377,Regirock,Rocha,100,200,50,100,50,3,Sim,5. Ótimo
+378,Regice,Gelo,50,100,100,200,50,3,Sim,1. Péssimo
+379,Registeel,Metal,75,150,75,150,50,3,Sim,2. Ruim
+380,Latias,"Dragao,Psiquico",80,90,110,130,110,3,Sim,3. Mediano
+380,LatiasMega Latias,"Dragao,Psiquico",100,120,140,150,110,3,Sim,4. Bom
+381,Latios,"Dragao,Psiquico",90,80,130,110,110,3,ñ,5. Ótimo
+381,LatiosMega Latios,"Dragao,Psiquico",130,100,160,120,110,3,Sim,1. Péssimo
+382,Kyogre,Agua,100,90,150,140,90,3,Sim,2. Ruim
+382,KyogrePrimal Kyogre,Agua,150,90,180,160,90,3,Sim,3. Mediano
+383,Groudon,Terra,150,140,100,90,90,3,Sim,4. Bom
+383,GroudonPrimal Groudon,"Terra,Fogo",180,160,150,90,90,3,Sim,5. Ótimo
+384,Rayquaza,"Dragao,Voador",150,90,150,90,95,3,Sim,1. Péssimo
+384,RayquazaMega Rayquaza,"Dragao,Voador",180,100,180,100,115,3,Sim,2. Ruim
+385,Jirachi,"Metal,Psiquico",100,100,100,100,100,3,Sim,3. Mediano
+386,DeoxysNormal Forme,Psiquico,150,50,150,50,150,3,Sim,4. Bom
+386,DeoxysAttack Forme,Psiquico,180,20,180,20,150,3,Sim,5. Ótimo
+386,DeoxysDefense Forme,Psiquico,70,160,70,160,90,3,Sim,1. Péssimo
+386,DeoxysSpeed Forme,Psiquico,95,90,95,90,180,3,Sim,2. Ruim
+387,Turtwig,Planta,68,64,45,55,31,4,Não,3. Mediano
+388,Grotle,Planta,89,85,55,65,36,4,Não,4. Bom
+389,Torterra,"Planta,Terra",109,105,75,85,56,4,Não,5. Ótimo
+390,Chimchar,Fogo,58,44,58,44,61,4,Não,1. Péssimo
+391,Monferno,"Fogo,Lutador",78,52,78,52,81,4,Não,2. Ruim
+392,Infernape,"Fogo,Lutador",104,71,104,71,108,4,Não,3. Mediano
+393,Piplup,Agua,51,53,61,56,40,4,Não,4. Bom
+394,Prinplup,Agua,66,68,81,76,50,4,Não,5. Ótimo
+395,Empoleon,"Agua,Metal",86,88,111,101,60,4,Não,1. Péssimo
+396,Starly,"Normal,Voador",55,30,30,30,60,4,Não,2. Ruim
+397,Staravia,"Normal,Voador",75,50,40,40,80,4,Não,3. Mediano
+398,Staraptor,"Normal,Voador",120,70,50,60,100,4,Não,4. Bom
+399,Bidoof,Normal,45,40,35,40,31,4,Não,5. Ótimo
+400,Bibarel,"Normal,Agua",85,60,55,60,71,4,nao,1. Péssimo
+401,Kricketot,Inseto,25,41,25,41,25,4,Não,2. Ruim
+402,Kricketune,Inseto,85,51,55,51,65,4,Não,3. Mediano
+403,Shinx,Eletrico,65,34,40,34,45,4,Não,4. Bom
+404,Luxio,Eletrico,85,49,60,49,60,4,Não,5. Ótimo
+405,Luxray,Eletrico,120,79,95,79,70,4,Não,1. Péssimo
+406,Budew,"Planta,Venenoso",30,35,50,70,55,4,Não,2. Ruim
+407,Roserade,"Planta,Venenoso",70,65,125,105,90,4,Não,3. Mediano
+408,Cranidos,Rocha,125,40,30,30,58,4,Não,4. Bom
+409,Rampardos,Rocha,165,60,65,50,58,4,Não,5. Ótimo
+410,Shieldon,"Rocha,Metal",42,118,42,88,30,4,Não,1. Péssimo
+411,Bastiodon,"Rocha,Metal",52,168,47,138,30,4,Não,2. Ruim
+412,Burmy,Inseto,29,45,29,45,36,4,nao,3. Mediano
+413,WormadamPlant Cloak,"Inseto,Planta",59,85,79,105,36,4,Não,4. Bom
+413,WormadamSandy Cloak,"Inseto,Terra",79,105,59,85,36,4,Não,5. Ótimo
+413,WormadamTrash Cloak,"Inseto,Metal",69,95,69,95,36,4,Não,1. Péssimo
+414,Mothim,"Inseto,Voador",94,50,94,50,66,4,ñ,2. Ruim
+415,Combee,"Inseto,Voador",30,42,30,42,70,4,Não,3. Mediano
+416,Vespiquen,"Inseto,Voador",80,102,80,102,40,4,Não,4. Bom
+417,Pachirisu,Eletrico,45,70,45,90,95,4,Não,5. Ótimo
+418,Buizel,Agua,65,35,60,30,85,4,nao,1. Péssimo
+419,Floatzel,Agua,105,55,85,50,115,4,Não,2. Ruim
+420,Cherubi,Planta,35,45,62,53,35,4,Não,3. Mediano
+421,Cherrim,Planta,60,70,87,78,85,4,Não,4. Bom
+422,Shellos,Agua,48,48,57,62,34,4,Não,5. Ótimo
+423,Gastrodon,"Agua,Terra",83,68,92,82,39,4,Não,1. Péssimo
+424,Ambipom,Normal,100,66,60,66,115,4,Não,2. Ruim
+425,Drifloon,"Fantasma,Voador",50,34,60,44,70,4,Não,3. Mediano
+426,Drifblim,"Fantasma,Voador",80,44,90,54,80,4,Não,4. Bom
+427,Buneary,Normal,66,44,44,56,85,4,Não,5. Ótimo
+428,Lopunny,Normal,76,84,54,96,105,4,Não,1. Péssimo
+428,LopunnyMega Lopunny,"Normal,Lutador",136,94,54,96,135,4,Não,2. Ruim
+429,Mismagius,Fantasma,60,60,105,105,105,4,Não,3. Mediano
+430,Honchkrow,"Escuridao,Voador",125,52,105,52,71,4,Não,4. Bom
+431,Glameow,Normal,55,42,42,37,85,4,Não,5. Ótimo
+432,Purugly,Normal,82,64,64,59,112,4,nao,1. Péssimo
+433,Chingling,Psiquico,30,50,65,50,45,4,Não,2. Ruim
+434,Stunky,"Venenoso,Escuridao",63,47,41,41,74,4,Não,3. Mediano
+435,Skuntank,"Venenoso,Escuridao",93,67,71,61,84,4,Não,4. Bom
+436,Bronzor,"Metal,Psiquico",24,86,24,86,23,4,Não,5. Ótimo
+437,Bronzong,"Metal,Psiquico",89,116,79,116,33,4,Não,1. Péssimo
+438,Bonsly,Rocha,80,95,10,45,10,4,Não,2. Ruim
+439,Mime Jr.,"Psiquico,Fada",25,45,70,90,60,4,Não,3. Mediano
+440,Happiny,Normal,5,5,15,65,30,4,Não,4. Bom
+441,Chatot,"Normal,Voador",65,45,92,42,91,4,Não,5. Ótimo
+442,Spiritomb,"Fantasma,Escuridao",92,108,92,108,35,4,Não,1. Péssimo
+443,Gible,"Dragao,Terra",70,45,40,45,42,4,Não,2. Ruim
+444,Gabite,"Dragao,Terra",90,65,50,55,82,4,Não,3. Mediano
+445,Garchomp,"Dragao,Terra",130,95,80,85,102,4,Não,4. Bom
+445,GarchompMega Garchomp,"Dragao,Terra",170,115,120,95,92,4,Não,5. Ótimo
+446,Munchlax,Normal,85,40,40,85,5,4,Não,1. Péssimo
+447,Riolu,Lutador,70,40,35,40,60,4,Não,2. Ruim
+448,Lucario,"Lutador,Metal",110,70,115,70,90,4,Não,3. Mediano
+448,LucarioMega Lucario,"Lutador,Metal",145,88,140,70,112,4,Não,4. Bom
+449,Hippopotas,Terra,72,78,38,42,32,NA,Não,5. Ótimo
+450,Hippowdon,Terra,112,118,68,72,47,4,Não,1. Péssimo
+451,Skorupi,"Venenoso,Inseto",50,90,30,55,65,4,Não,2. Ruim
+452,Drapion,"Venenoso,Escuridao",90,110,60,75,95,4,ñ,3. Mediano
+453,Croagunk,"Venenoso,Lutador",61,40,61,40,50,4,Não,4. Bom
+454,Toxicroak,"Venenoso,Lutador",106,65,86,65,85,4,nao,5. Ótimo
+455,Carnivine,Planta,100,72,90,72,46,4,Não,1. Péssimo
+456,Finneon,Agua,49,56,49,61,66,4,Não,2. Ruim
+457,Lumineon,Agua,69,76,69,86,91,4,Não,3. Mediano
+458,Mantyke,"Agua,Voador",20,50,60,120,50,4,Não,4. Bom
+459,Snover,"Planta,Gelo",62,50,62,60,40,4,Não,5. Ótimo
+460,Abomasnow,"Planta,Gelo",92,75,92,85,60,4,Não,1. Péssimo
+460,AbomasnowMega Abomasnow,"Planta,Gelo",132,105,132,105,30,4,Não,2. Ruim
+461,Weavile,"Escuridao,Gelo",120,65,45,85,125,4,Não,3. Mediano
+462,Magnezone,"Eletrico,Metal",70,115,130,90,60,4,Não,4. Bom
+463,Lickilicky,Normal,85,95,80,95,50,4,Não,5. Ótimo
+464,Rhyperior,"Terra,Rocha",140,130,55,55,40,4,Não,1. Péssimo
+465,Tangrowth,Planta,100,125,110,50,50,4,Não,2. Ruim
+466,Electivire,Eletrico,123,67,95,85,95,4,Não,3. Mediano
+467,Magmortar,Fogo,95,67,125,95,83,4,Não,4. Bom
+468,Togekiss,"Fada,Voador",50,95,120,115,80,4,Não,5. Ótimo
+469,Yanmega,"Inseto,Voador",76,86,116,56,95,4,Não,1. Péssimo
+470,Leafeon,Planta,110,130,60,65,95,4,Não,2. Ruim
+471,Glaceon,Gelo,60,110,130,95,65,4,Não,3. Mediano
+472,Gliscor,"Terra,Voador",95,125,45,75,95,4,Não,4. Bom
+473,Mamoswine,"Gelo,Terra",130,80,70,60,80,4,Não,5. Ótimo
+474,Porygon-Z,Normal,80,70,135,75,90,4,Não,1. Péssimo
+475,Gallade,"Psiquico,Lutador",125,65,65,115,80,4,Não,2. Ruim
+475,GalladeMega Gallade,"Psiquico,Lutador",165,95,65,115,110,4,Não,3. Mediano
+476,Probopass,"Rocha,Metal",55,145,75,150,40,4,nao,4. Bom
+477,Dusknoir,Fantasma,100,135,65,135,45,4,Não,5. Ótimo
+478,Froslass,"Gelo,Fantasma",80,70,80,70,110,4,Não,1. Péssimo
+479,Rotom,"Eletrico,Fantasma",50,77,95,77,91,4,Não,2. Ruim
+479,RotomHeat Rotom,"Eletrico,Fogo",65,107,105,107,86,4,Não,3. Mediano
+479,RotomWash Rotom,"Eletrico,Agua",65,107,105,107,86,4,Não,4. Bom
+479,RotomFrost Rotom,"Eletrico,Gelo",65,107,105,107,86,4,Não,5. Ótimo
+479,RotomFan Rotom,"Eletrico,Voador",65,107,105,107,86,4,Não,1. Péssimo
+479,RotomMow Rotom,"Eletrico,Planta",65,107,105,107,86,4,Não,2. Ruim
+480,Uxie,Psiquico,75,130,75,130,95,4,Sim,3. Mediano
+481,Mesprit,Psiquico,105,105,105,105,80,4,Sim,4. Bom
+482,Azelf,Psiquico,125,70,125,70,115,4,Sim,5. Ótimo
+483,Dialga,"Metal,Dragao",120,120,150,100,90,4,Sim,1. Péssimo
+484,Palkia,"Agua,Dragao",120,100,150,120,100,4,Sim,2. Ruim
+485,Heatran,"Fogo,Metal",90,106,130,106,77,4,Sim,3. Mediano
+486,Regigigas,Normal,160,110,80,110,100,4,Sim,4. Bom
+487,GiratinaAltered Forme,"Fantasma,Dragao",100,120,100,120,90,4,Sim,5. Ótimo
+487,GiratinaOrigin Forme,"Fantasma,Dragao",120,100,120,100,90,4,Sim,1. Péssimo
+488,Cresselia,Psiquico,70,120,75,130,85,4,Não,2. Ruim
+489,Phione,Agua,80,80,80,80,80,4,Não,3. Mediano
+490,Manaphy,Agua,100,100,100,100,100,4,Não,4. Bom
+491,Darkrai,Escuridao,90,90,135,90,125,4,Sim,5. Ótimo
+492,ShayminLand Forme,Planta,100,100,100,100,100,4,Sim,1. Péssimo
+492,ShayminSky Forme,"Planta,Voador",103,75,120,75,127,4,Sim,2. Ruim
+493,Arceus,Normal,120,120,120,120,120,4,Sim,3. Mediano
+494,Victini,"Psiquico,Fogo",100,100,100,100,100,5,Sim,4. Bom
+495,Snivy,Planta,45,55,45,55,63,5,Não,5. Ótimo
+496,Servine,Planta,60,75,60,75,83,5,Não,1. Péssimo
+497,Serperior,Planta,75,95,75,95,113,5,Não,2. Ruim
+498,Tepig,Fogo,63,45,45,45,45,5,Não,3. Mediano
+499,Pignite,"Fogo,Lutador",93,55,70,55,55,5,Não,4. Bom
+500,Emboar,"Fogo,Lutador",123,65,100,65,65,5,Não,5. Ótimo
+501,Oshawott,Agua,55,45,63,45,45,5,Não,1. Péssimo
+502,Dewott,Agua,75,60,83,60,60,5,Não,2. Ruim
+503,Samurott,Agua,100,85,108,70,70,5,Não,3. Mediano
+504,Patrat,Normal,55,39,35,39,42,5,Não,4. Bom
+505,Watchog,Normal,85,69,60,69,77,5,Não,5. Ótimo
+506,Lillipup,Normal,60,45,25,45,55,5,Não,1. Péssimo
+507,Herdier,Normal,80,65,35,65,60,5,Não,2. Ruim
+508,Stoutland,Normal,110,90,45,90,80,5,Não,3. Mediano
+509,Purrloin,Escuridao,50,37,50,37,66,5,Não,4. Bom
+510,Liepard,Escuridao,88,50,88,50,106,5,Não,5. Ótimo
+511,Pansage,Planta,53,48,53,48,64,5,Não,1. Péssimo
+512,Simisage,Planta,98,63,98,63,101,5,Não,2. Ruim
+513,Pansear,Fogo,53,48,53,48,64,5,Não,3. Mediano
+514,Simisear,Fogo,98,63,98,63,101,5,Não,4. Bom
+515,Panpour,Agua,53,48,53,48,64,5,Não,5. Ótimo
+516,Simipour,Agua,98,63,98,63,101,5,Não,1. Péssimo
+517,Munna,Psiquico,25,45,67,55,24,5,Não,2. Ruim
+518,Musharna,Psiquico,55,85,107,95,29,5,Não,3. Mediano
+519,Pidove,"Normal,Voador",55,50,36,30,43,5,Não,4. Bom
+520,Tranquill,"Normal,Voador",77,62,50,42,65,5,Não,5. Ótimo
+521,Unfezant,"Normal,Voador",115,80,65,55,93,5,Não,1. Péssimo
+522,Blitzle,Eletrico,60,32,50,32,76,5,Não,2. Ruim
+523,Zebstrika,Eletrico,100,63,80,63,116,5,Não,3. Mediano
+524,Roggenrola,Rocha,75,85,25,25,15,5,Não,4. Bom
+525,Boldore,Rocha,105,105,50,40,20,5,Não,5. Ótimo
+526,Gigalith,Rocha,135,130,60,80,25,5,Não,1. Péssimo
+527,Woobat,"Psiquico,Voador",45,43,55,43,72,5,Não,2. Ruim
+528,Swoobat,"Psiquico,Voador",57,55,77,55,114,5,Não,3. Mediano
+529,Drilbur,Terra,85,40,30,45,68,5,Não,4. Bom
+530,Excadrill,"Terra,Metal",135,60,50,65,88,5,Não,5. Ótimo
+531,Audino,Normal,60,86,60,86,50,5,Não,1. Péssimo
+531,AudinoMega Audino,"Normal,Fada",60,126,80,126,50,5,Não,2. Ruim
+532,Timburr,Lutador,80,55,25,35,35,5,Não,3. Mediano
+533,Gurdurr,Lutador,105,85,40,50,40,5,Não,4. Bom
+534,Conkeldurr,Lutador,140,95,55,65,45,5,Não,5. Ótimo
+535,Tympole,Agua,50,40,50,40,64,5,Não,1. Péssimo
+536,Palpitoad,"Agua,Terra",65,55,65,55,69,5,Não,2. Ruim
+537,Seismitoad,"Agua,Terra",95,75,85,75,74,5,Não,3. Mediano
+538,Throh,Lutador,100,85,30,85,45,5,Não,4. Bom
+539,Sawk,Lutador,125,75,30,75,85,5,Não,5. Ótimo
+540,Sewaddle,"Inseto,Planta",53,70,40,60,42,NA,Não,1. Péssimo
+541,Swadloon,"Inseto,Planta",63,90,50,80,42,5,Não,2. Ruim
+542,Leavanny,"Inseto,Planta",103,80,70,80,92,5,Não,3. Mediano
+543,Venipede,"Inseto,Venenoso",45,59,30,39,57,5,Não,4. Bom
+544,Whirlipede,"Inseto,Venenoso",55,99,40,79,47,5,Não,5. Ótimo
+545,Scolipede,"Inseto,Venenoso",100,89,55,69,112,5,Não,1. Péssimo
+546,Cottonee,"Planta,Fada",27,60,37,50,66,5,Não,2. Ruim
+547,Whimsicott,"Planta,Fada",67,85,77,75,116,5,Não,3. Mediano
+548,Petilil,Planta,35,50,70,50,30,5,Não,4. Bom
+549,Lilligant,Planta,60,75,110,75,90,5,Não,5. Ótimo
+550,Basculin,Agua,92,65,80,55,98,5,Não,1. Péssimo
+551,Sandile,"Terra,Escuridao",72,35,35,35,65,5,Não,2. Ruim
+552,Krokorok,"Terra,Escuridao",82,45,45,45,74,5,Não,3. Mediano
+553,Krookodile,"Terra,Escuridao",117,80,65,70,92,5,Não,4. Bom
+554,Darumaka,Fogo,90,45,15,45,50,5,Não,5. Ótimo
+555,DarmanitanStandard Mode,Fogo,140,55,30,55,95,5,Não,1. Péssimo
+555,DarmanitanZen Mode,"Fogo,Psiquico",30,105,140,105,55,5,Não,2. Ruim
+556,Maractus,Planta,86,67,106,67,60,5,Não,3. Mediano
+557,Dwebble,"Inseto,Rocha",65,85,35,35,55,5,Não,4. Bom
+558,Crustle,"Inseto,Rocha",95,125,65,75,45,5,Não,5. Ótimo
+559,Scraggy,"Escuridao,Lutador",75,70,35,70,48,5,Não,1. Péssimo
+560,Scrafty,"Escuridao,Lutador",90,115,45,115,58,5,Não,2. Ruim
+561,Sigilyph,"Psiquico,Voador",58,80,103,80,97,5,Não,3. Mediano
+,,,,,,,,,,
+,,,,,,,,,,
+562,Yamask,Fantasma,30,85,55,65,30,5,Não,4. Bom
+563,Cofagrigus,Fantasma,50,145,95,105,30,5,Não,5. Ótimo
+564,Tirtouga,"Agua,Rocha",78,103,53,45,22,5,Não,1. Péssimo
+565,Carracosta,"Agua,Rocha",108,133,83,65,32,5,Não,2. Ruim
+566,Archen,"Rocha,Voador",112,45,74,45,70,5,Não,3. Mediano
+567,Archeops,"Rocha,Voador",140,65,112,65,110,5,Não,4. Bom
+568,Trubbish,Venenoso,50,62,40,62,65,5,Não,5. Ótimo
+569,Garbodor,Venenoso,95,82,60,82,75,5,Não,1. Péssimo
+570,Zorua,Escuridao,65,40,80,40,65,5,Não,2. Ruim
+571,Zoroark,Escuridao,105,60,120,60,105,5,Não,3. Mediano
+572,Minccino,Normal,50,40,40,40,75,5,Não,4. Bom
+573,Cinccino,Normal,95,60,65,60,115,5,Não,5. Ótimo
+574,Gothita,Psiquico,30,50,55,65,45,5,Não,1. Péssimo
+575,Gothorita,Psiquico,45,70,75,85,55,5,Não,2. Ruim
+576,Gothitelle,Psiquico,55,95,95,110,65,5,Não,3. Mediano
+577,Solosis,Psiquico,30,40,105,50,20,5,Não,4. Bom
+578,Duosion,Psiquico,40,50,125,60,30,5,Não,5. Ótimo
+579,Reuniclus,Psiquico,65,75,125,85,30,5,Não,1. Péssimo
+580,Ducklett,"Agua,Voador",44,50,44,50,55,5,Não,2. Ruim
+581,Swanna,"Agua,Voador",87,63,87,63,98,5,Não,3. Mediano
+582,Vanillite,Gelo,50,50,65,60,44,5,Não,4. Bom
+583,Vanillish,Gelo,65,65,80,75,59,5,Não,5. Ótimo
+584,Vanilluxe,Gelo,95,85,110,95,79,5,Não,1. Péssimo
+585,Deerling,"Normal,Planta",60,50,40,50,75,5,Não,2. Ruim
+586,Sawsbuck,"Normal,Planta",100,70,60,70,95,5,Não,3. Mediano
+587,Emolga,"Eletrico,Voador",75,60,75,60,103,5,Não,4. Bom
+588,Karrablast,Inseto,75,45,40,45,60,5,Não,5. Ótimo
+589,Escavalier,"Inseto,Metal",135,105,60,105,20,5,Não,1. Péssimo
+590,Foongus,"Planta,Venenoso",55,45,55,55,15,5,Não,2. Ruim
+591,Amoonguss,"Planta,Venenoso",85,70,85,80,30,5,Não,3. Mediano
+592,Frillish,"Agua,Fantasma",40,50,65,85,40,5,Não,4. Bom
+593,Jellicent,"Agua,Fantasma",60,70,85,105,60,5,Não,5. Ótimo
+594,Alomomola,Agua,75,80,40,45,65,5,Não,1. Péssimo
+595,Joltik,"Inseto,Eletrico",47,50,57,50,65,5,Não,2. Ruim
+596,Galvantula,"Inseto,Eletrico",77,60,97,60,108,5,Não,3. Mediano
+597,Ferroseed,"Planta,Metal",50,91,24,86,10,5,Não,4. Bom
+598,Ferrothorn,"Planta,Metal",94,131,54,116,20,5,Não,5. Ótimo
+599,Klink,Metal,55,70,45,60,30,5,Não,1. Péssimo
+600,Klang,Metal,80,95,70,85,50,5,Não,2. Ruim
+601,Klinklang,Metal,100,115,70,85,90,5,Não,3. Mediano
+602,Tynamo,Eletrico,55,40,45,40,60,5,Não,4. Bom
+603,Eelektrik,Eletrico,85,70,75,70,40,5,Não,5. Ótimo
+604,Eelektross,Eletrico,115,80,105,80,50,5,Não,1. Péssimo
+605,Elgyem,Psiquico,55,55,85,55,30,5,Não,2. Ruim
+606,Beheeyem,Psiquico,75,75,125,95,40,5,Não,3. Mediano
+607,Litwick,"Fantasma,Fogo",30,55,65,55,20,5,Não,4. Bom
+608,Lampent,"Fantasma,Fogo",40,60,95,60,55,5,Não,5. Ótimo
+609,Chandelure,"Fantasma,Fogo",55,90,145,90,80,5,Não,1. Péssimo
+610,Axew,Dragao,87,60,30,40,57,5,Não,2. Ruim
+611,Fraxure,Dragao,117,70,40,50,67,5,Não,3. Mediano
+612,Haxorus,Dragao,147,90,60,70,97,5,Não,4. Bom
+613,Cubchoo,Gelo,70,40,60,40,40,5,Não,5. Ótimo
+614,Beartic,Gelo,110,80,70,80,50,5,Não,1. Péssimo
+615,Cryogonal,Gelo,50,30,95,135,105,5,Não,2. Ruim
+616,Shelmet,Inseto,40,85,40,65,25,5,Não,3. Mediano
+617,Accelgor,Inseto,70,40,100,60,145,5,Não,4. Bom
+618,Stunfisk,"Terra,Eletrico",66,84,81,99,32,5,Não,5. Ótimo
+619,Mienfoo,Lutador,85,50,55,50,65,5,Não,1. Péssimo
+620,Mienshao,Lutador,125,60,95,60,105,5,Não,2. Ruim
+621,Druddigon,Dragao,120,90,60,90,48,5,Não,3. Mediano
+622,Golett,"Terra,Fantasma",74,50,35,50,35,5,Não,4. Bom
+623,Golurk,"Terra,Fantasma",124,80,55,80,55,5,Não,5. Ótimo
+624,Pawniard,"Escuridao,Metal",85,70,40,40,60,5,Não,1. Péssimo
+625,Bisharp,"Escuridao,Metal",125,100,60,70,70,5,Não,2. Ruim
+626,Bouffalant,Normal,110,95,40,95,55,5,Não,3. Mediano
+627,Rufflet,"Normal,Voador",83,50,37,50,60,5,Não,4. Bom
+628,Braviary,"Normal,Voador",123,75,57,75,80,5,Não,5. Ótimo
+629,Vullaby,"Escuridao,Voador",55,75,45,65,60,5,Não,1. Péssimo
+630,Mandibuzz,"Escuridao,Voador",65,105,55,95,80,5,Não,2. Ruim
+631,Heatmor,Fogo,97,66,105,66,65,5,Não,3. Mediano
+632,Durant,"Inseto,Metal",109,112,48,48,109,5,Não,4. Bom
+633,Deino,"Escuridao,Dragao",65,50,45,50,38,5,Não,5. Ótimo
+634,Zweilous,"Escuridao,Dragao",85,70,65,70,58,5,Não,1. Péssimo
+635,Hydreigon,"Escuridao,Dragao",105,90,125,90,98,5,Não,2. Ruim
+636,Larvesta,"Inseto,Fogo",85,55,50,55,60,5,Não,3. Mediano
+637,Volcarona,"Inseto,Fogo",60,65,135,105,100,5,Não,4. Bom
+638,Cobalion,"Metal,Lutador",90,129,90,72,108,5,Sim,5. Ótimo
+639,Terrakion,"Rocha,Lutador",129,90,72,90,108,5,Sim,1. Péssimo
+640,Virizion,"Planta,Lutador",90,72,90,129,108,5,Sim,2. Ruim
+641,TornadusIncarnate Forme,Voador,115,70,125,80,111,5,Sim,3. Mediano
+641,TornadusTherian Forme,Voador,100,80,110,90,121,5,Sim,4. Bom
+642,ThundurusIncarnate Forme,"Eletrico,Voador",115,70,125,80,111,5,Sim,5. Ótimo
+642,ThundurusTherian Forme,"Eletrico,Voador",105,70,145,80,101,5,Sim,1. Péssimo
+643,Reshiram,"Dragao,Fogo",120,100,150,120,90,5,Sim,2. Ruim
+644,Zekrom,"Dragao,Eletrico",150,120,120,100,90,5,Sim,3. Mediano
+645,LandorusIncarnate Forme,"Terra,Voador",125,90,115,80,101,5,Sim,4. Bom
+645,LandorusTherian Forme,"Terra,Voador",145,90,105,80,91,5,Sim,5. Ótimo
+646,Kyurem,"Dragao,Gelo",130,90,130,90,95,5,Sim,1. Péssimo
+646,KyuremBlack Kyurem,"Dragao,Gelo",170,100,120,90,95,5,Sim,2. Ruim
+646,KyuremWhite Kyurem,"Dragao,Gelo",120,90,170,100,95,5,Sim,3. Mediano
+647,KeldeoOrdinary Forme,"Agua,Lutador",72,90,129,90,108,5,Não,4. Bom
+647,KeldeoResolute Forme,"Agua,Lutador",72,90,129,90,108,5,Não,5. Ótimo
+648,MeloettaAria Forme,"Normal,Psiquico",77,77,128,128,90,5,Não,1. Péssimo
+648,MeloettaPirouette Forme,"Normal,Lutador",128,90,77,77,128,5,Não,2. Ruim
+649,Genesect,"Inseto,Metal",120,95,120,95,99,5,Não,3. Mediano
+650,Chespin,Planta,61,65,48,45,38,6,Não,4. Bom
+651,Quilladin,Planta,78,95,56,58,57,6,Não,5. Ótimo
+652,Chesnaught,"Planta,Lutador",107,122,74,75,64,6,Não,1. Péssimo
+653,Fennekin,Fogo,45,40,62,60,60,6,Não,2. Ruim
+654,Braixen,Fogo,59,58,90,70,73,6,Não,3. Mediano
+655,Delphox,"Fogo,Psiquico",69,72,114,100,104,6,Não,4. Bom
+656,Froakie,Agua,56,40,62,44,71,6,Não,5. Ótimo
+657,Frogadier,Agua,63,52,83,56,97,6,Não,1. Péssimo
+658,Greninja,"Agua,Escuridao",95,67,103,71,122,6,Não,2. Ruim
+659,Bunnelby,Normal,36,38,32,36,57,6,Não,3. Mediano
+660,Diggersby,"Normal,Terra",56,77,50,77,78,6,Não,4. Bom
+661,Fletchling,"Normal,Voador",50,43,40,38,62,6,Não,5. Ótimo
+662,Fletchinder,"Fogo,Voador",73,55,56,52,84,6,Não,1. Péssimo
+663,Talonflame,"Fogo,Voador",81,71,74,69,126,6,Não,2. Ruim
+664,Scatterbug,Inseto,35,40,27,25,35,6,Não,3. Mediano
+665,Spewpa,Inseto,22,60,27,30,29,6,Não,4. Bom
+666,Vivillon,"Inseto,Voador",52,50,90,50,89,6,Não,5. Ótimo
+667,Litleo,"Fogo,Normal",50,58,73,54,72,6,Não,1. Péssimo
+668,Pyroar,"Fogo,Normal",68,72,109,66,106,6,Não,2. Ruim
+669,Flabébé,Fada,38,39,61,79,42,6,Não,3. Mediano
+670,Floette,Fada,45,47,75,98,52,6,Não,4. Bom
+671,Florges,Fada,65,68,112,154,75,6,Não,5. Ótimo
+672,Skiddo,Planta,65,48,62,57,52,6,Não,1. Péssimo
+673,Gogoat,Planta,100,62,97,81,68,6,Não,2. Ruim
+674,Pancham,Lutador,82,62,46,48,43,6,Não,3. Mediano
+675,Pangoro,"Lutador,Escuridao",124,78,69,71,58,6,Não,4. Bom
+676,Furfrou,Normal,80,60,65,90,102,6,Não,5. Ótimo
+677,Espurr,Psiquico,48,54,63,60,68,6,Não,1. Péssimo
+678,MeowsticMale,Psiquico,48,76,83,81,104,6,Não,2. Ruim
+678,MeowsticFemale,Psiquico,48,76,83,81,104,6,Não,3. Mediano
+679,Honedge,"Metal,Fantasma",80,100,35,37,28,6,Não,4. Bom
+680,Doublade,"Metal,Fantasma",110,150,45,49,35,6,Não,5. Ótimo
+681,AegislashBlade Forme,"Metal,Fantasma",150,50,150,50,60,6,Não,1. Péssimo
+681,AegislashShield Forme,"Metal,Fantasma",50,150,50,150,60,6,Não,2. Ruim
+682,Spritzee,Fada,52,60,63,65,23,6,Não,3. Mediano
+683,Aromatisse,Fada,72,72,99,89,29,6,Não,4. Bom
+684,Swirlix,Fada,48,66,59,57,49,6,Não,5. Ótimo
+685,Slurpuff,Fada,80,86,85,75,72,6,Não,1. Péssimo
+686,Inkay,"Escuridao,Psiquico",54,53,37,46,45,6,Não,2. Ruim
+687,Malamar,"Escuridao,Psiquico",92,88,68,75,73,6,Não,3. Mediano
+688,Binacle,"Rocha,Agua",52,67,39,56,50,6,Não,4. Bom
+689,Barbaracle,"Rocha,Agua",105,115,54,86,68,6,Não,5. Ótimo
+690,Skrelp,"Venenoso,Agua",60,60,60,60,30,6,Não,1. Péssimo
+691,Dragalge,"Venenoso,Dragao",75,90,97,123,44,6,Não,2. Ruim
+692,Clauncher,Agua,53,62,58,63,44,6,Não,3. Mediano
+,,,,,,,,,,
+693,Clawitzer,Agua,73,88,120,89,59,6,Não,4. Bom
+694,Helioptile,"Eletrico,Normal",38,33,61,43,70,6,Não,5. Ótimo
+695,Heliolisk,"Eletrico,Normal",55,52,109,94,109,6,Não,1. Péssimo
+696,Tyrunt,"Rocha,Dragao",89,77,45,45,48,6,Não,2. Ruim
+697,Tyrantrum,"Rocha,Dragao",121,119,69,59,71,6,Não,3. Mediano
+698,Amaura,"Rocha,Gelo",59,50,67,63,46,6,Não,4. Bom
+699,Aurorus,"Rocha,Gelo",77,72,99,92,58,6,Não,5. Ótimo
+700,Sylveon,Fada,65,65,110,130,60,6,Não,1. Péssimo
+701,Hawlucha,"Lutador,Voador",92,75,74,63,118,6,Não,2. Ruim
+702,Dedenne,"Eletrico,Fada",58,57,81,67,101,6,Não,3. Mediano
+703,Carbink,"Rocha,Fada",50,150,50,150,50,6,Não,4. Bom
+704,Goomy,Dragao,50,35,55,75,40,6,Não,5. Ótimo
+705,Sliggoo,Dragao,75,53,83,113,60,6,Não,1. Péssimo
+706,Goodra,Dragao,100,70,110,150,80,6,Não,2. Ruim
+707,Klefki,"Metal,Fada",80,91,80,87,75,6,Não,3. Mediano
+708,Phantump,"Fantasma,Planta",70,48,50,60,38,6,Não,4. Bom
+709,Trevenant,"Fantasma,Planta",110,76,65,82,56,6,Não,5. Ótimo
+710,PumpkabooAverage Size,"Fantasma,Planta",66,70,44,55,51,6,Não,1. Péssimo
+710,PumpkabooSmall Size,"Fantasma,Planta",66,70,44,55,56,6,Não,2. Ruim
+710,PumpkabooLarge Size,"Fantasma,Planta",66,70,44,55,46,6,Não,3. Mediano
+710,PumpkabooSuper Size,"Fantasma,Planta",66,70,44,55,41,6,Não,4. Bom
+711,GourgeistAverage Size,"Fantasma,Planta",90,122,58,75,84,6,Não,5. Ótimo
+711,GourgeistSmall Size,"Fantasma,Planta",85,122,58,75,99,6,Não,1. Péssimo
+711,GourgeistLarge Size,"Fantasma,Planta",95,122,58,75,69,6,Não,2. Ruim
+711,GourgeistSuper Size,"Fantasma,Planta",100,122,58,75,54,6,Não,3. Mediano
+712,Bergmite,Gelo,69,85,32,35,28,NA,Não,4. Bom
+713,Avalugg,Gelo,117,184,44,46,28,6,Não,5. Ótimo
+714,Noibat,"Voador,Dragao",30,35,45,40,55,6,Não,1. Péssimo
+715,Noivern,"Voador,Dragao",70,80,97,80,123,6,Não,2. Ruim
+716,Xerneas,Fada,131,95,131,98,99,6,Sim,3. Mediano
+717,Yveltal,"Escuridao,Voador",131,95,131,98,99,6,Sim,4. Bom
+718,Zygarde50% Forme,"Dragao,Terra",100,121,81,95,95,6,Sim,5. Ótimo
+719,Diancie,"Rocha,Fada",100,150,100,150,50,6,Sim,1. Péssimo
+719,DiancieMega Diancie,"Rocha,Fada",160,110,160,110,110,6,Sim,2. Ruim
+720,HoopaHoopa Confined,"Psiquico,Fantasma",110,60,150,130,70,6,Sim,3. Mediano
+720,HoopaHoopa Unbound,"Psiquico,Escuridao",160,60,170,130,80,6,Sim,4. Bom
+721,Volcanion,"Fogo,Agua",110,120,130,90,70,6,Sim,5. Ótimo
