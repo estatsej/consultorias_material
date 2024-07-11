@@ -572,30 +572,22 @@ df <- data.frame(y=rnorm(200, 0, 2.5))
 
 ggplot(df, aes(sample=y)) +
   stat_qq() + 
-  stat_qq_line()
+  stat_qq_line()+
+  labs(x='Quantil teórico', y='Quantil observado')
 ```
+No gráfico anterior, vemos que a grande maioria dos pontos estão bem próximos da linha, com alguns pontos mais longes nas caldas, pela grande quantidade de pontos próximos, há indícios de normalidade, e pelos pontos que saem da reta estarem do mesmo lado, há simetria.
 
 
 ```{r}
+library(hnp)
+fit <- lm(iris$Sepal.Length ~ iris$Sepal.Width + iris$Petal.Length + iris$Petal.Width)
+hnp(fit)
 
-
-library(ggplot2)
-library(dplyr)
-library(tibble)
-
-
-lower_bound <- apply(df, 1, function(y) quantile(y, probs = (1 - 0.95) / 2))
-upper_bound <- apply(df, 1, function(y) quantile(y, probs = (1 + 0.95) / 2))
-
-ggplot() +
-  geom_point(aes(sample = df), stat = "qq", color = "blue") +
-  geom_abline(slope = 1, intercept = 0, color = "red") +
-  geom_ribbon(aes(x = rnorm(200,0,1), ymin = lower_bound, ymax = upper_bound), alpha = 0.2, fill = "red") +
-  ggtitle("Gráfico Q-Q com Bandas de Confiança") +
-  xlab("Quantis Teóricos") +
-  ylab("Quantis dos Dados")
 
 ```
+Na figura acima temos os resíduos plotados com o envelope simulado,todos pontos estão dentro do envelope, com exceção de um, próximo ao 2, que se encontra em cima da borda do envelope, se tornando um ponto a ser observado, no entanto por todos resíduos estarem dentro do envelope temos indícios de normalidade nos resíduos.
+
+<br><br>
 
 # 4. Overleaf
 
